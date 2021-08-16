@@ -1,0 +1,2 @@
+public class ImdbPagination {
+}
