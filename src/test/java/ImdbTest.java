@@ -36,13 +36,17 @@ public abstract class ImdbTest {
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         driver.manage().window().maximize();
         page = getPage();
+        page.start();
 
 
 
 
     }
-    public abstract Imdb getPage();
-    
+    public abstract Imdb createPage();
+    public Imdb getPage(){
+        return page;
+    }
+
     @AfterEach
     public void Close()
     {
