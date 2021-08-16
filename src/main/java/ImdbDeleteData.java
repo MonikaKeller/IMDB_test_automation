@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
-public class ImdbDeleteData {
+public class ImdbDeleteData extends Imdb {
 
     //Töröljünk egy filmet a Watchlist-ról
     public static final By WATCHLIST = By.xpath("///*[@id=\"imdbHeader\"]/div[2]/div[4]/a/div");
@@ -10,4 +11,7 @@ public class ImdbDeleteData {
 
     public static final By DELETE_ITEMS_FORM = By.xpath("//*[@id=\"delete_items_form\"]/div/input");
 
+    public ImdbDeleteData(WebDriver driver) {
+        super(driver);
+    }
 }

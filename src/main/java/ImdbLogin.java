@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ImdbLogin {
+public class ImdbLogin extends Imdb{
 
     //Teszt Elek
     //tesztelek1231234@gmail.com
@@ -21,4 +21,7 @@ public class ImdbLogin {
     public static final By PASSWORD = By.id("ap_password");
     public static final By SIGN_IN_SUBMIT = By.id("signInSubmit");
 
+    public ImdbLogin(WebDriver driver) {
+        super(driver);
+    }
 }

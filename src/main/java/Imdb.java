@@ -14,4 +14,15 @@ public class Imdb {
     //https://www.imdb.com/
     public static final By SIGN_IN= By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/a/div");
     public static final By PRIVACY_POLICY = By.xpath("//*[@id=\"__next\"]/footer/div[2]/div[1]/div[3]/ul/li[5]/a");
+
+    private WebDriver driver;
+
+    public Imdb(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    public void start() {
+        driver.navigate().to("https://www.imdb.com/");
+    }
+
 }

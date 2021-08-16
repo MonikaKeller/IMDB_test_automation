@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ImdbReg {
+public class ImdbReg extends Imdb {
 
     //https://www.imdb.com/registration/signin?ref=nv_generic_lgin&u=%2F
     public static final By CUSTOMER_NAME= By.id("ap_customer_name");
@@ -19,4 +19,7 @@ public class ImdbReg {
     public static final By CREATE_ACCOUNT_BUTTON= By.id("continue");
 
 
+    public ImdbReg(WebDriver driver) {
+        super(driver);
+    }
 }

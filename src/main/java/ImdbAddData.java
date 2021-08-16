@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
-public class ImdbAddData {
+public class ImdbAddData extends Imdb {
 
     //List feltöltése
     public static final By CREATE_NEW_LIST = By.xpath("//*[@id=\"sidebar\"]/div[3]/span/div/p[2]/a");
@@ -12,5 +13,10 @@ public class ImdbAddData {
     public static final By CREATE_BUTTON = By.xpath("//*[@id=\"list-create-form\"]/button");
     public static final By ADD_TO_LIST_SEARCH = By.id("add-to-list-search");
     public static final By DONE_BUTTON = By.xpath("//*[@id=\"main\"]/div[1]/button");
+
+    public ImdbAddData(WebDriver driver) {
+        super(driver);
+    }
+
 
 }
