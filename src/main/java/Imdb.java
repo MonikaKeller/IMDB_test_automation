@@ -11,11 +11,21 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Imdb {
 
-    //https://www.imdb.com/
+
     public static final By SIGN_IN= By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/a/div");
     public static final By PRIVACY_POLICY = By.xpath("//*[@id=\"__next\"]/footer/div[2]/div[1]/div[3]/ul/li[5]/a");
+    public static final By EMAIL = By.id("ap_email");
+    public static final By PASSWORD = By.id("ap_password");
+    public static final By SIGN_IN_SUBMIT = By.id("signInSubmit");
+    public static final By SIGN_IN_WITH_IMDB = By.xpath("//*[@id=\"signin-options\"]/div/div[1]/a[1]/span[2]");
 
-    private WebDriver driver;
+    //Teszt Elek
+    //tesztelek1231234@gmail.com
+    //jelszó: Tesztelek12
+    static final String MY_EMAIL = "tesztelek1231234@gmail.com";
+    static final String MY_PASSWORD = "Tesztelek12";
+
+    public WebDriver driver;
 
     public Imdb(WebDriver driver) {
         this.driver = driver;
@@ -24,5 +34,20 @@ public class Imdb {
     public void start() {
         driver.navigate().to("https://www.imdb.com/");
     }
+
+    public void signIn() {
+
+        driver.findElement(SIGN_IN).click();
+        driver.findElement(SIGN_IN_WITH_IMDB).click();
+        driver.findElement(EMAIL).sendKeys(MY_EMAIL);
+        driver.findElement(PASSWORD).sendKeys(MY_PASSWORD);
+        driver.findElement(SIGN_IN_SUBMIT).click();
+    }
+
+
+
+
+
+
 
 }
