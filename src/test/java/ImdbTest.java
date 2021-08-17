@@ -23,6 +23,7 @@ public abstract class ImdbTest {
 
     WebDriver driver;
     Imdb page;
+
     @BeforeEach
     public void Setup()
     {
