@@ -51,6 +51,6 @@ public abstract class ImdbTest {
     @AfterEach
     public void Close()
     {
-        //Driver dispose
+        driver.close();
     }
 }

@@ -21,6 +21,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ImdbLoginTest extends ImdbTest{
 
+
     @Override
     public Imdb createPage(){
         return new ImdbLogin(driver);
@@ -34,11 +35,11 @@ public class ImdbLoginTest extends ImdbTest{
     }
 
     @Test
-    public void loginTest(){
+    public void loginTextTest(){
         getPage().signIn();
-        Assertions.assertEquals(expected, actual);
+        String actual = getPage().loginText();
+
+        String expected = "Teszt";
+        Assertions.assertEquals(expected,actual);
     }
 }
-    String actual = driver.findElement(By.xpath("//span[contains(@class, 'user-name')]"));
-<span class="imdb-header__account-toggle--logged-in imdb-header__accountmenu-toggle navbar__user-name navbar__user-menu-toggle__name navbar__user-menu-toggle--desktop">Teszt</span>
-//*[@id="imdbHeader"]/div[2]/div[5]/div/label[2]/div/span
