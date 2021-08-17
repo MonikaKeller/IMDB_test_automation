@@ -13,11 +13,12 @@ public class Imdb {
 
 
     public static final By SIGN_IN= By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/a/div");
-    public static final By PRIVACY_POLICY = By.xpath("//*[@id=\"__next\"]/footer/div[2]/div[1]/div[3]/ul/li[5]/a");
     public static final By EMAIL = By.id("ap_email");
     public static final By PASSWORD = By.id("ap_password");
     public static final By SIGN_IN_SUBMIT = By.id("signInSubmit");
     public static final By SIGN_IN_WITH_IMDB = By.xpath("//*[@id=\"signin-options\"]/div/div[1]/a[1]/span[2]");
+    public static final By ACTUAL_LOGIN = By.xpath("//span[contains(@class, 'user-name')]")
+
 
     //Teszt Elek
     //tesztelek1231234@gmail.com
@@ -42,6 +43,11 @@ public class Imdb {
         driver.findElement(EMAIL).sendKeys(MY_EMAIL);
         driver.findElement(PASSWORD).sendKeys(MY_PASSWORD);
         driver.findElement(SIGN_IN_SUBMIT).click();
+    }
+
+    public String loginText(){
+        return driver.findElement(Imdb.ACTUAL_LOGIN).getText();
+
     }
 
 
