@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Imdb {
+public abstract class Imdb {
 
 
     public static final By SIGN_IN= By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/a/div");
@@ -17,7 +17,7 @@ public class Imdb {
     public static final By PASSWORD = By.id("ap_password");
     public static final By SIGN_IN_SUBMIT = By.id("signInSubmit");
     public static final By SIGN_IN_WITH_IMDB = By.xpath("//*[@id=\"signin-options\"]/div/div[1]/a[1]/span[2]");
-    public static final By ACTUAL_LOGIN = By.xpath("//span[contains(@class, 'user-name')]")
+    public static final By ACTUAL_LOGIN = By.xpath("//span[contains(@class, 'user-name')]");
 
 
     //Teszt Elek
