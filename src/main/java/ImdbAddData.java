@@ -4,15 +4,16 @@ import org.openqa.selenium.WebDriver;
 public class ImdbAddData extends Imdb {
 
     //Your List
-    public static final By CREATE_YOUR_LISTS = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[5]");
+
     public static final By CREATE_A_NEW_LIST_BUTTON = By.xpath("//*[@id=\"sidebar\"]/div[3]/a/button");
     public static final By LIST_CREATE_NAME = By.id("list-create-name");
     public static final By LIST_CREATE_DESCRIPTION = By.id("list-create-description");
     public static final By LIST_CREATE_TYPE = By.id("list-create-type");
     public static final By LIST_CREATE_PUBLIC_CHECKBOX = By.xpath("//*[@id=\"list-create-form\"]/div[4]/label");
     public static final By CREATE_BUTTON = By.xpath("//*[@id=\"list-create-form\"]/button");
-    public static final By DONE_BUTTON = By.xpath("//*[@id=\"main\"]/div[1]/button");
-    public static final By ACTUAL = By.xpath("//*[@id=\"main\"]/div/h1");
+
+
+    public static final By ADD_DATA_ACTUAL = By.xpath("//*[@id=\"main\"]/div/h1");
 
     public ImdbAddData(WebDriver driver) {
         super(driver);
@@ -20,7 +21,7 @@ public class ImdbAddData extends Imdb {
 
     public void createNewListInit(){
         driver.findElement(PROFILE_BUTTON).click();
-        driver.findElement(CREATE_YOUR_LISTS).click();
+        driver.findElement(YOUR_LISTS).click();
         driver.findElement(CREATE_A_NEW_LIST_BUTTON).click();
     }
 
@@ -38,8 +39,8 @@ public class ImdbAddData extends Imdb {
 
     }
 
-    public String getActual(){
-        return driver.findElement(ACTUAL).getText();
+    public String getAddDataActual(){
+        return driver.findElement(ADD_DATA_ACTUAL).getText();
 
     }
 }
