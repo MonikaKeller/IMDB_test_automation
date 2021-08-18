@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -22,6 +23,8 @@ public class ImdbPrivacyPolicy extends Imdb {
     }
 
     public String privacyPolicyText(){
+        //implicitlyWait helyett kell egy másik Wait
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         return driver.findElement(PRIVACY_POLICY_TEXT).getText();
 
     }

@@ -1,6 +1,8 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class ImdbReg extends Imdb {
 
     public static final By CREATE_A_NEW_ACCOUNT_BUTTON= By.xpath("//*[@id=\"signin-options\"]/div/div[2]/a");
@@ -33,10 +35,18 @@ public class ImdbReg extends Imdb {
     }
 
     public void Registration(){
+        //Explicit wait legyen
         driver.findElement(CUSTOMER_NAME).sendKeys(REG_NAME);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
         driver.findElement(EMAIL).sendKeys(REG_EMAIL);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
         driver.findElement(PASSWORD).sendKeys(REG_PASSWORD);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
         driver.findElement(PASSWORD_CHECK).sendKeys(REG_REPASSWORD);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         driver.findElement(CREATE_YOUR_IMDB_ACCOUNT_BUTTON).click();
 
