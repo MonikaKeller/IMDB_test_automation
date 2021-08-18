@@ -18,6 +18,7 @@ public abstract class Imdb {
     public static final By SIGN_IN_SUBMIT = By.id("signInSubmit");
     public static final By SIGN_IN_WITH_IMDB = By.xpath("//*[@id=\"signin-options\"]/div/div[1]/a[1]/span[2]");
     public static final By ACTUAL_LOGIN = By.xpath("//span[contains(@class, 'user-name')]");
+    public static final By PROFILE_BUTTON = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/span");
 
 
     //Teszt Elek

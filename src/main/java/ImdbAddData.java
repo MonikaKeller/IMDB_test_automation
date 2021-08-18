@@ -3,9 +3,9 @@ import org.openqa.selenium.WebDriver;
 
 public class ImdbAddData extends Imdb {
 
-    //List feltöltése
-    public static final By CREATE_NEW_LIST = By.xpath("//*[@id=\"sidebar\"]/div[3]/span/div/p[2]/a");
-
+    //Your List
+    public static final By CREATE_YOUR_LIST = By.xpath("");
+    //*[@id="navUserMenu-contents"]/ul/a[5]
     public static final By LIST_CREATE_NAME = By.id("list-create-name");
     public static final By LIST_CREATE_DESCRIPTION = By.id("list-create-description");
     public static final By LIST_CREATE_TYPE = By.id("list-create-type");

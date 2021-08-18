@@ -10,6 +10,7 @@ public class ImdbLogout extends Imdb {
     }
 
     public void logoutClick(){
+        driver.findElement(PROFILE_BUTTON).click();
         driver.findElement(LOGOUT).click();
     }
 
