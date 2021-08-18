@@ -34,6 +34,8 @@ public class ImdbRegTest extends ImdbTest{
     }
     @Test
     public void RegistrationTest(){
+        getPage().signInClick();
+        getPage().createNewAccountClick();
         getPage().Registration();
 
         String actual = getPage().registrationText();
