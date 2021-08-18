@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,7 +30,7 @@ public class ImdbPrivacyPolicyTest extends ImdbTest{
         //castolás
         return (ImdbPrivacyPolicy) super.getPage();
     }
-
+    @Test
     public void privacyPolicyTextTest(){
 
         getPage().privacyPolicyClick();

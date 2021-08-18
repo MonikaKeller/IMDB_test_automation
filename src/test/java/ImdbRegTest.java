@@ -32,7 +32,7 @@ public class ImdbRegTest extends ImdbTest{
         //castolás
         return (ImdbReg) super.getPage();
     }
-
+    @Test
     public void RegistrationTest(){
         getPage().Registration();
 

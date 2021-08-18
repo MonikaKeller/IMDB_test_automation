@@ -30,13 +30,13 @@ public abstract class ImdbTest {
 
 
         if (System.getProperty("webdriver.chrome.driver") == null) {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Monika\\Selenium\\Driver\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\JetBrains\\Selenium\\chromedriver.exe");
         }
 
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        page = getPage();
+        page = createPage();
         page.start();
 
 
