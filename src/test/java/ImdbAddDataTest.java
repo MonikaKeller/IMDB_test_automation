@@ -42,7 +42,7 @@ public class ImdbAddDataTest extends ImdbTest{
         getPage().signIn();
         getPage().createNewListInit();
         getPage().createNewListFillData(name,description,type,publicList);
-        String actual = getPage().getActual();
+        String actual = getPage().getAddDataActual();
 
         Assertions.assertEquals(name,actual);
     }
