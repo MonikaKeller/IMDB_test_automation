@@ -42,8 +42,18 @@ public class ImdbPaginationTest extends ImdbTest{
         Assertions.assertEquals(expected_film_title,actual_film_title);
 
     }
-
+    @Test
     public void filmPaginationTest(){
-        
+        String expected_add_image= "Add Image";
+
+        getPage().start();
+
+        getPage().dataSearch();
+        getPage().filmSelect();
+        getPage().filmSelectTitle();
+
+        String actual_add_image = getPage().filmPagination();
+
+        Assertions.assertEquals(expected_add_image,actual_add_image);
     }
 }

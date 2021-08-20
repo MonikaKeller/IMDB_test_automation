@@ -16,7 +16,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public abstract class ImdbTest {
@@ -32,8 +34,19 @@ public abstract class ImdbTest {
         if (System.getProperty("webdriver.chrome.driver") == null) {
             System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\JetBrains\\Selenium\\chromedriver.exe");
         }
+        String fileDownloadPath = "C:\\Users\\Kiss Mónika\\IdeaProjects\\IMDB_test_automation\\src\\test\\resources";
 
-        driver = new ChromeDriver();
+        Map<String, Object> prefsMap = new HashMap<String, Object>();
+        prefsMap.put("profile.default_content_settings.popups", 0);
+        prefsMap.put("download.default_directory", fileDownloadPath);
+
+        ChromeOptions option = new ChromeOptions();
+        option.setExperimentalOption("prefs", prefsMap);
+        option.addArguments("--test-type");
+        option.addArguments("--disable-extensions");
+
+
+        driver = new ChromeDriver(option);
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         driver.manage().window().maximize();
         page = createPage();

@@ -1,3 +1,6 @@
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 public class ImdbExportDataTest extends ImdbTest{
 
     @Override
@@ -10,5 +13,13 @@ public class ImdbExportDataTest extends ImdbTest{
 
         //castolás
         return (ImdbExportData) super.getPage();
+    }
+
+    @Test
+    public void exportDataTest(){
+        getPage().signIn();
+        getPage().exportDataInit();
+
+        //Assertions.assertEquals(expected,actual);
     }
 }
