@@ -28,8 +28,13 @@ public class ImdbListTest extends ImdbTest{
 
     }
 
-    //@Test
+    @Test
     public void listSearchTest(){
+        String expected_search = "Search category:";
+
         getPage().start();
+        getPage().dataSearch();
+        String actual_search = getPage().listSearch();
+        Assertions.assertEquals(expected_search,actual_search);
     }
 }
