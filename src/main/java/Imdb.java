@@ -23,6 +23,8 @@ public abstract class Imdb {
     public static final By DONE_BUTTON = By.xpath("//*[@id=\"main\"]/div[1]/button");
     //Ezzel a Three points xpath-tal vmi nem oké
     public static final By THREE_POINTS = By.id("ls507902895");
+    public static final By SUGGESTION_SEARCH = By.id("suggestion-search");
+    public static final By TITLE_MATCHES = By.xpath("//*[@id=\"main\"]/div/h1/span");
 
     //Teszt Elek
     //tesztelek1231234@gmail.com
