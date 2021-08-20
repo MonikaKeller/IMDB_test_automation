@@ -21,6 +21,8 @@ public abstract class Imdb {
     public static final By PROFILE_BUTTON = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/span");
     public static final By YOUR_LISTS = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[5]");
     public static final By DONE_BUTTON = By.xpath("//*[@id=\"main\"]/div[1]/button");
+    //Ezzel a Three points xpath-tal vmi nem oké
+    public static final By THREE_POINTS = By.id("ls507902895");
 
     //Teszt Elek
     //tesztelek1231234@gmail.com

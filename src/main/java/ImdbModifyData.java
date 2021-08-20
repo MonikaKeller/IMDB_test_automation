@@ -1,12 +1,16 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.concurrent.TimeUnit;
 
 public class ImdbModifyData extends Imdb {
 
-    //módosítsuk a felhasználó profil adatait Edit profile
-
-    public static final By THREE_POINTS = By.id("ls507902895");
+    //Ezzel az Edit list xpath-tal vmi nem oké
     public static final By EDIT_LIST = By.xpath("//*[@id=\"ls507902895\"]/ul/li[1]/a");
+
     public static final By TITLE = By.xpath("//textarea[@name='listTitle' and text()='My list']");
     public static final By DESCRIPTION = By.xpath("//*[@id=\"main\"]/div[2]/div[1]/div/div[2]/div[1]");
     public static final By MODIFY_ACTUAL_NAME = By.xpath("//*[@id=\"main\"]/div/h1");
@@ -19,8 +23,24 @@ public class ImdbModifyData extends Imdb {
     public void modifyDataInit(){
         driver.findElement(PROFILE_BUTTON).click();
         driver.findElement(YOUR_LISTS).click();
+
+
+
+
+        //proba alatt van, formázandó
+        /*WebElement listNameA = driver.findElement(By.xpath("//a[@class=\"list-name\" and text()='" + name + "']"));
+        WebElement parentLi = listNameA.findElement(By.xpath("./.."));
+        String listId = parentLi.getAttribute("id");
+        WebElement threePoints = driver.findElement(By.xpath("//div[@class=\"vertical-ellipsis\" and @id=\"" + listId + "\"]"));
+
         driver.findElement(THREE_POINTS).click();
-        driver.findElement(EDIT_LIST).click();
+        //wait
+        WebDriverWait wait = new WebDriverWait(driver, 3);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'pop-up-dialog') and @id=\"" + listId + "\"]")));
+        WebElement editLink = driver.findElement(By.xpath("//div[contains(@class,'pop-up-dialog') and @id=\"" + listId + "\"]//a[text()='Edit']"));
+        editLink.click();
+
+        driver.findElement(EDIT_LIST).click();*/
 
 
     }
