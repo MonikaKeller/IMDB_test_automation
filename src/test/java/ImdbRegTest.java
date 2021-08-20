@@ -1,7 +1,4 @@
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,6 +29,7 @@ public class ImdbRegTest extends ImdbTest{
         //castolás
         return (ImdbReg) super.getPage();
     }
+    @Disabled
     @Test
     public void RegistrationTest(){
         getPage().signInClick();
