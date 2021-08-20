@@ -1,13 +1,18 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ImdbPagination extends Imdb {
 
     //Film galériában tudunk többoldalas listában lapozni
-    public static final By NEXT_BUTTON= By.xpath("//*[@id=\"right\"]/a");
+    public static final By NEXT_BUTTON= By.xpath("//a[contains(text(),'Next')]");
     public static final By FILMSELECT= By.xpath("//*[@id=\"main\"]/div/div[2]/table/tbody/tr[1]/td[2]/a");
     public static final By FILMTITLE= By.xpath("//*[@id=\"__next\"]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/h1");
     public static final By SEARCH_ORIGINAL_TITLE = By.xpath("//*[@id=\"__next\"]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/div");
+    public static final By PHOTO_LINK= By.xpath("//*[@id=\"__next\"]/main/div/section[1]/section/div[3]/section/section/div[3]/div[1]/div/div[3]/a[2]");
+    public static final By ADD_IMAGE_PHOTO= By.xpath("//*[@id=\"media_index_thumbnail_grid\"]/a[5]/span/span");
 
     public ImdbPagination(WebDriver driver) {
         super(driver);
@@ -32,8 +37,25 @@ public class ImdbPagination extends Imdb {
 
     }
 
-    public void filmPagination(){
+    public String filmPagination(){
+        boolean nextButtonVisible = true;
 
+            driver.findElement(PHOTO_LINK).click();
+       do {
+
+            try{
+
+                    driver.findElement(NEXT_BUTTON).click();
+                    WebDriverWait wait = new WebDriverWait(driver, 3);
+                    //wait.until(ExpectedConditions.visibilityOfElementLocated());
+
+
+            } catch (NoSuchElementException e){
+                nextButtonVisible = false;
+            }
+       } while (nextButtonVisible);
+
+       return  driver.findElement(ADD_IMAGE_PHOTO).getText();
     }
 
 
