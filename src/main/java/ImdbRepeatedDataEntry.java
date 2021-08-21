@@ -13,7 +13,7 @@ public class ImdbRepeatedDataEntry extends Imdb {
 
     public static final By TOTAL_CHECK = By.id("totalCheck");
     public static final By DELETE_ITEMS = By.id("delete_items");
-    public static final By ALERT_DELETE = By.id("//input[@type=\"submit\" and @value=\"DELETE\"]");
+    public static final By ALERT_DELETE = By.xpath("//input[@type=\"submit\" and @value=\"DELETE\"]");
 
 
 
@@ -32,7 +32,8 @@ public class ImdbRepeatedDataEntry extends Imdb {
         }
 
         uploadWatchlist(titles);
-        driver.findElement(DONE_BUTTON).click();
+        sleep(1000);
+
 
     }
 
@@ -53,12 +54,22 @@ public class ImdbRepeatedDataEntry extends Imdb {
         driver.findElement(ALERT_DELETE).click();
         sleep(5000);
 
+        driver.findElement(DONE_BUTTON).click();
 
 
     }
 
 
     public void uploadWatchlist(List<String> titles){
+        driver.findElement(EDIT_BUTTON).click();
+        for(String i:titles){
+          inputTextAsHuman(driver.findElement(ADD_TO_LIST_SEARCH),i);
 
+            WebDriverWait wait = new WebDriverWait(driver, 3);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(SEARCH_ITEM));
+            sleep(1000);
+            driver.findElement(SEARCH_ITEM).click();
+        }
+        driver.findElement(DONE_BUTTON).click();
     }
 }

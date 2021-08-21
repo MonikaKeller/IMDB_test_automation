@@ -14,11 +14,8 @@ import java.util.concurrent.TimeUnit;
 public class ImdbExportData extends Imdb {
     //Lementem a Watchlist-em tartalmát fájlba
 
-    public static final By WATCHLIST = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[4]/a/div");
     public static final By EXPORT_WATCHLIST = By.xpath("//*[@id=\"center-1-react\"]/div/div[4]/a");
-    public static final By ADD_TO_LIST_SEARCH = By.xpath("//input[@type=\"text\" and @id=\"add-to-list-search\"]");
-    public static final By SEARCH_ITEM = By.xpath("//div[@class=\"results\"]/a[@class=\"search_item\"]");
-    public static final By DONE_BUTTON = By.xpath("//button[text()='Done']");
+
 
 
     public ImdbExportData(WebDriver driver) {

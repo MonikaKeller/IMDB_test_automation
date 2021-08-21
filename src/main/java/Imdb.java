@@ -27,8 +27,8 @@ public abstract class Imdb {
     public static final By DONE_BUTTON = By.xpath("//button[text()='Done']");
     public static final By WATCHLIST = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[4]/a/div");
     public static final By EDIT_BUTTON = By.xpath("//a[@class=\"button\" and @title=\"Edit\"]");
-
-
+    public static final By ADD_TO_LIST_SEARCH = By.xpath("//input[@type=\"text\" and @id=\"add-to-list-search\"]");
+    public static final By SEARCH_ITEM = By.xpath("//div[@class=\"results\"]/a[@class=\"search_item\"]");
     //Teszt Elek
     //tesztelek1231234@gmail.com
     //jelszó: Tesztelek12
