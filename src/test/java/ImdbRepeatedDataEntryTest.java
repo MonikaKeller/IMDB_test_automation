@@ -32,6 +32,7 @@ public class ImdbRepeatedDataEntryTest extends ImdbTest{
         List<String> titles = openFile();
         getPage().repeatedDataEntry(titles);
 
+        //TODO: Assertions hiányzik
         //Assertions.assertEquals(expected,actual);
     }
 

@@ -33,9 +33,12 @@ public class ImdbDeleteDataTest extends ImdbTest{
 
     @Test
     public void deleteDataTest(){
+        String name = "My list";
 
         getPage().signIn();
-        getPage().deleteDataInit();
+        getPage().deleteDataInit(name);
 
+        //TODO: Assertions hiányzik még
+        //Assertions.assertEquals(expected,actual);
     }
 }

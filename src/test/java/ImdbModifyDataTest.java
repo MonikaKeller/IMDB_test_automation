@@ -41,7 +41,7 @@ public class ImdbModifyDataTest extends ImdbTest{
 
         getPage().signIn();
         getPage().modifyDataInit(name);
-        getPage().modifyData(name,description);
+        getPage().modifyData(expected_name,expected_description);
 
 
         String actual_name = getPage().getModifyActualName();
