@@ -35,7 +35,7 @@ public class ImdbReg extends Imdb {
     }
 
     public void Registration(){
-        //Explicit wait legyen
+
         driver.findElement(CUSTOMER_NAME).sendKeys(REG_NAME);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 

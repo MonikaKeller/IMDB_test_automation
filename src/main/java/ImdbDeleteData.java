@@ -1,26 +1,49 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ImdbDeleteData extends Imdb {
 
-    //xpath problems
-    public static final By WATCHLIST = By.xpath("///*[@id=\"imdbHeader\"]/div[2]/div[4]/a/div");
-    public static final By EDIT_WATCHLIST = By.xpath("//*[@id=\"center-1-react\"]/div/div[1]/div/div[1]/a");
-    public static final By EDIT_WATCHLIST_CHECKBOX = By.xpath("//*[@id=\"2071030859\"]");
-    public static final By DELETE_ITEMS = By.id("delete_items");
-    public static final By DELETE_ITEMS_FORM = By.xpath("//*[@id=\"delete_items_form\"]/div/input");
-    public static final By DELETE_THIS_LIST = By.xpath("//*[@id=\"ls507902895\"]");
-    public static final By DELETE_ALERT = By.xpath("//*[@id=\"ls507902895\"]");
+    public static final By DELETE_ALERT = By.id("ls507902895");
 
     public ImdbDeleteData(WebDriver driver) {
         super(driver);
     }
 
-    public void deleteDataInit(){
+    public void deleteDataInit(String name){
         driver.findElement(PROFILE_BUTTON).click();
         driver.findElement(YOUR_LISTS).click();
-        driver.findElement(THREE_POINTS).click();
-        driver.findElement(DELETE_THIS_LIST).click();
-        driver.findElement(DELETE_ALERT).click();
+        WebElement listNameA;
+        try {
+             listNameA = driver.findElement(By.xpath("//a[@class=\"list-name\" and text()='" + name + "']"));
+        }
+        catch(NoSuchElementException e){
+            System.err.println("Nincs "+ name +" nevű lista!");
+            throw e;
+
+        }
+            WebElement parentLi = listNameA.findElement(By.xpath("./.."));
+            String listId = parentLi.getAttribute("id");
+            WebElement threePoints = driver.findElement(By.xpath("//div[@class=\"vertical-ellipsis\" and @id=\"" + listId + "\"]"));
+
+            threePoints.click();
+
+            WebDriverWait wait = new WebDriverWait(driver, 3);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'pop-up-dialog') and @id=\"" + listId + "\"]")));
+
+            WebElement deleteList = driver.findElement(By.xpath("//div[contains(@class,'pop-up-dialog') and @id=\"" + listId + "\"]//a[text()='Delete this list']"));
+            deleteList.click();
+
+            WebDriverWait wait2 = new WebDriverWait(driver, 3);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@id=\"" + listId + "\" and contains(@class,'pop-up-modal-option') and contains(@class,'confirm')]")));
+
+            WebElement deleteAlert = driver.findElement(By.xpath("//a[@id=\"" + listId + "\" and contains(@class,'pop-up-modal-option') and contains(@class,'confirm')]"));
+            deleteAlert.click();
+            sleep(3000);
+
+
     }
 }

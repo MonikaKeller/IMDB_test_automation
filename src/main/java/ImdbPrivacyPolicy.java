@@ -23,7 +23,7 @@ public class ImdbPrivacyPolicy extends Imdb {
     }
 
     public String privacyPolicyText(){
-        //implicitlyWait helyett kell egy másik Wait
+        //TODO: implicitlyWait helyett kell egy másik Wait
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         return driver.findElement(PRIVACY_POLICY_TEXT).getText();
 

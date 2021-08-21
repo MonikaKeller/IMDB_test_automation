@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
 
 public class ImdbModifyData extends Imdb {
+    //TODO: TITLE és DESCRIPTION xpath-a nem jó
     public static final By TITLE = By.xpath("//*[@id=\"main\"]/div[2]/div[1]/div/div[1]/div[2]/textarea");
     //public static final By TITLE = By.xpath("//div[@name='listTitle' and text()='My list']");
     public static final By DESCRIPTION = By.xpath("//*[@id=\"main\"]/div[2]/div[1]/div/div[2]/div[1]");
@@ -40,10 +41,10 @@ public class ImdbModifyData extends Imdb {
 
     }
 
-    public void modifyData(String name, String description){
-        driver.findElement(TITLE).sendKeys(name);
+    public void modifyData(String expected_name, String expected_description){
+        driver.findElement(TITLE).sendKeys(expected_name);
 
-        driver.findElement(DESCRIPTION).sendKeys(description);
+        driver.findElement(DESCRIPTION).sendKeys(expected_description);
         driver.findElement(DONE_BUTTON).click();
     }
     public String getModifyActualName(){
