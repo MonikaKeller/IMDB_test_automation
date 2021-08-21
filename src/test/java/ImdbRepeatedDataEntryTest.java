@@ -31,7 +31,8 @@ public class ImdbRepeatedDataEntryTest extends ImdbTest{
         getPage().signIn();
         List<String> titles = openFile();
         getPage().repeatedDataEntry(titles);
-        //Assertions.assertEquals();
+
+        //Assertions.assertEquals(expected,actual);
     }
 
     public List<String> openFile(){
@@ -44,10 +45,11 @@ public class ImdbRepeatedDataEntryTest extends ImdbTest{
                  titles.add(line);
             }
             reader.close();
-            return titles;
+
 
         } catch (IOException e) {
             Assertions.fail("The file not exist", e);
         }
+        return titles;
     }
 }
