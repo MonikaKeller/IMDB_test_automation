@@ -1,8 +1,14 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class ImdbExportData extends Imdb {
@@ -10,35 +16,50 @@ public class ImdbExportData extends Imdb {
 
     public static final By WATCHLIST = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[4]/a/div");
     public static final By EXPORT_WATCHLIST = By.xpath("//*[@id=\"center-1-react\"]/div/div[4]/a");
-    public static final By ADD_TO_WATCHLIST = By.id("//*[@id=\"__next\"]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[2]/div/div/button[1]/div");
-    public static final By OPEN_LIST_ITEM = By.xpath("//*[@id=\"main\"]/div/div[2]/table/tbody/tr/td[2]/a");
+    public static final By EDIT_BUTTON = By.xpath("//a[@class=\"button\" and @title=\"Edit\"]");
+    public static final By ADD_TO_LIST_SEARCH = By.xpath("//input[@type=\"text\" and @id=\"add-to-list-search\"]");
+    public static final By SEARCH_ITEM = By.xpath("//div[@class=\"results\"]/a[@class=\"search_item\"]");
+    public static final By DONE_BUTTON = By.xpath("//button[text()='Done']");
+    public static final By WATCHLIST_EMPTY = By.xpath("//span[@class=\"empty-watchlist-text\"]");
 
     public ImdbExportData(WebDriver driver) {
         super(driver);
     }
 
-    public void exportDataInit(){
-        //Ezt még formáljuk
-        boolean empty_watchlist = true;
-        //wait problem néha
-        driver.findElement(WATCHLIST).click();
-        driver.findElement(EXPORT_WATCHLIST).click();
+    public void exportData(String filmTitle, String filmYear){
 
-        /*if(!empty_watchlist) {
+        driver.findElement(WATCHLIST).click();
+
+        if(!isWatchListEmpty()) {
             driver.findElement(EXPORT_WATCHLIST).click();
+            sleep(10000);
         }
         else {
+            driver.findElement(EDIT_BUTTON).click();
 
-            driver.findElement(SUGGESTION_SEARCH).sendKeys("Spun (2002)\n");
-            driver.findElement(OPEN_LIST_ITEM).click();
-            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-            driver.findElement(ADD_TO_WATCHLIST).click();
-            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            WebElement inputField = driver.findElement(ADD_TO_LIST_SEARCH);
+            inputTextAsHuman(inputField, filmTitle + " (" + filmYear + ")");
 
-            //wait.until(ExpectedConditions.visibilityOfElementLocated(SELECT_SEARCH_ITEM));
+            WebDriverWait wait = new WebDriverWait(driver, 3);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(SEARCH_ITEM));
+            sleep(1000);
+            driver.findElement(SEARCH_ITEM).click();
 
-            driver.findElement(WATCHLIST).click();
+            driver.findElement(DONE_BUTTON).click();
+
             driver.findElement(EXPORT_WATCHLIST).click();
-        }*/
+            sleep(10000);
+        }
     }
+
+    public boolean isWatchListEmpty() {
+        try {
+            driver.findElement(WATCHLIST_EMPTY);
+            return true;
+        }
+        catch (NoSuchElementException e) {
+            return false;
+        }
+    }
+
 }

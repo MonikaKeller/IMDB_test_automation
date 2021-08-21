@@ -56,10 +56,17 @@ public abstract class Imdb {
 
     }
 
+    public void sleep(long milliseconds) {
+        try {
+            Thread.sleep(milliseconds);
+        } catch (InterruptedException e) { }
+    }
 
-
-
-
-
+    public void inputTextAsHuman(WebElement element, String text) {
+        for (int i = 0; i < text.length(); i++) {
+            sleep(300);
+            element.sendKeys(String.valueOf(text.charAt(i)));
+        }
+    }
 
 }
