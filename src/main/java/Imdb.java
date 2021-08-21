@@ -20,11 +20,14 @@ public abstract class Imdb {
     public static final By ACTUAL_LOGIN = By.xpath("//span[contains(@class, 'user-name')]");
     public static final By PROFILE_BUTTON = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]/div/span");
     public static final By YOUR_LISTS = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[5]");
-    public static final By DONE_BUTTON = By.xpath("//*[@id=\"main\"]/div[1]/button");
-    //Ezzel a Three points xpath-tal vmi nem oké
     public static final By THREE_POINTS = By.id("ls507902895");
     public static final By SUGGESTION_SEARCH = By.id("suggestion-search");
     public static final By TITLE_MATCHES = By.xpath("//*[@id=\"main\"]/div/h1/span");
+    public static final By WATCHLIST_EMPTY = By.xpath("//span[@class=\"empty-watchlist-text\"]");
+    public static final By DONE_BUTTON = By.xpath("//button[text()='Done']");
+    public static final By WATCHLIST = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[4]/a/div");
+    public static final By EDIT_BUTTON = By.xpath("//a[@class=\"button\" and @title=\"Edit\"]");
+
 
     //Teszt Elek
     //tesztelek1231234@gmail.com
@@ -66,6 +69,16 @@ public abstract class Imdb {
         for (int i = 0; i < text.length(); i++) {
             sleep(300);
             element.sendKeys(String.valueOf(text.charAt(i)));
+        }
+    }
+
+    public boolean isWatchListEmpty() {
+        try {
+            driver.findElement(WATCHLIST_EMPTY);
+            return true;
+        }
+        catch (NoSuchElementException e) {
+            return false;
         }
     }
 
