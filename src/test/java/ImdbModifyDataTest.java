@@ -31,7 +31,7 @@ public class ImdbModifyDataTest extends ImdbTest{
         return (ImdbModifyData) super.getPage();
     }
 
-    //@Test
+    @Test
     public void modifyDataTest(){
         String name = "My list";
         String description = "Monika's list";
@@ -40,7 +40,7 @@ public class ImdbModifyDataTest extends ImdbTest{
         String expected_description = "Moncsi's list";
 
         getPage().signIn();
-        getPage().modifyDataInit();
+        getPage().modifyDataInit(name);
         getPage().modifyData(name,description);
 
 
