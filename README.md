@@ -12,3 +12,12 @@ Szükséges az Allure Framework feltelepítése a következő módon: https://do
 Szükséges a Google Chrome böngésző legalább 92.0-s verziója.
 
 Hogyan lehet lefuttatni? 
+Parancssorból a következő lépések végrehajtásával:
+-Be kell lépni a project könyvtárába.
+-Ki kell adni a mvn clean test parancsot.
+-Be kell lépni a /target könyvtárba.
+-Ki kell adni az allure generate parancsot, majd az allure open parancsot.
+(Az allure generate és az allure open parancsok kiválthatók az allure serve parancs kiadásával.)
+
+
+
