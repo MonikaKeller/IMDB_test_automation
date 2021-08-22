@@ -1,0 +1,141 @@
+[ {
+  "uid" : "7436ca66fc241cb9",
+  "name" : "dataSearchTest()",
+  "time" : {
+    "start" : 1629636691452,
+    "stop" : 1629636716549,
+    "duration" : 25097
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4193181d2b7b93cb",
+  "name" : "listSearchTest()",
+  "time" : {
+    "start" : 1629636716559,
+    "stop" : 1629636746337,
+    "duration" : 29778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86f3a0d4df8a5124",
+  "name" : "createNewListTest()",
+  "time" : {
+    "start" : 1629636572801,
+    "stop" : 1629636617641,
+    "duration" : 44840
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ef4765372be591a",
+  "name" : "filmSelectTitleTest()",
+  "time" : {
+    "start" : 1629636929650,
+    "stop" : 1629636967970,
+    "duration" : 38320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ca19dee1cd7ca58",
+  "name" : "logoutAfterTest()",
+  "time" : {
+    "start" : 1629636775421,
+    "stop" : 1629636812531,
+    "duration" : 37110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5819c5cad80704bb",
+  "name" : "RegistrationTest()",
+  "time" : {
+    "start" : 1629637010945,
+    "stop" : 1629637010945,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "aac777dadad82423",
+  "name" : "modifyDataTest()",
+  "time" : {
+    "start" : 1629636812545,
+    "stop" : 1629636851328,
+    "duration" : 38783
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "75f4df55645cd114",
+  "name" : "loginTextTest()",
+  "time" : {
+    "start" : 1629636746357,
+    "stop" : 1629636775390,
+    "duration" : 29033
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f8abb59ef933c1f",
+  "name" : "deleteDataTest()",
+  "time" : {
+    "start" : 1629636618056,
+    "stop" : 1629636661564,
+    "duration" : 43508
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "420b30c004c88850",
+  "name" : "filmPaginationTest()",
+  "time" : {
+    "start" : 1629636851347,
+    "stop" : 1629636929636,
+    "duration" : 78289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3221644ec24e2af7",
+  "name" : "repeatedDataEntryTest()",
+  "time" : {
+    "start" : 1629637010956,
+    "stop" : 1629637102861,
+    "duration" : 91905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fb79ec8b48228ff",
+  "name" : "dataSearchTest()",
+  "time" : {
+    "start" : 1629636967978,
+    "stop" : 1629636991921,
+    "duration" : 23943
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10492c29b750aa39",
+  "name" : "exportDataTest()",
+  "time" : {
+    "start" : 1629636661583,
+    "stop" : 1629636691419,
+    "duration" : 29836
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "53dd4d732183d1ca",
+  "name" : "privacyPolicyTextTest()",
+  "time" : {
+    "start" : 1629636991934,
+    "stop" : 1629637010926,
+    "duration" : 18992
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,114 @@
+{
+  "total" : 11,
+  "items" : [ {
+    "uid" : "df39ca80f7332eb1db1981a6b9784b45",
+    "name" : "ImdbExportDataTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3d3c4bcc5a13890ef8aa2b3e1166ef37",
+    "name" : "ImdbModifyDataTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "328e4a709f8204fce7d693e816ef9e64",
+    "name" : "ImdbPaginationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "43fff5a51ee4c3fae9ce05a3e3a86a99",
+    "name" : "ImdbListTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "51a2f7d4674f7bf9ce95555d64186d8e",
+    "name" : "ImdbAddDataTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "12482bc68312623d04f3c7adc0253c37",
+    "name" : "ImdbDeleteDataTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d414306e7e7985faf5336d6ef02e52b9",
+    "name" : "ImdbLoginTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "63ca5103bb7cd3d7ceac04236d7e022b",
+    "name" : "ImdbLogoutTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "0c3aae370650d249112525ee9b4d90fe",
+    "name" : "ImdbPrivacyPolicyTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f5d61bedb71f9299f82c696401fe604b",
+    "name" : "ImdbRepeatedDataEntryTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
