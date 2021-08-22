@@ -1,0 +1,87 @@
+{
+  "uid" : "2ca19dee1cd7ca58",
+  "name" : "logoutAfterTest()",
+  "fullName" : "ImdbLogoutTest.logoutAfterTest",
+  "historyId" : "7234617ce5140e5481197e131552b6d8",
+  "time" : {
+    "start" : 1629636775421,
+    "stop" : 1629636812531,
+    "duration" : 37110
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629636775423,
+      "stop" : 1629636785799,
+      "duration" : 10376
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629636807763,
+      "stop" : 1629636812531,
+      "duration" : 4768
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-AO95A4T"
+  }, {
+    "name" : "thread",
+    "value" : "17128@DESKTOP-AO95A4T.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ImdbLogoutTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ImdbLogoutTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "logoutAfterTest"
+  }, {
+    "name" : "suite",
+    "value" : "ImdbLogoutTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ca19dee1cd7ca58.json",
+  "parameterValues" : [ ]
+}

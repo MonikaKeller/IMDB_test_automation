@@ -1,0 +1,87 @@
+{
+  "uid" : "1ef4765372be591a",
+  "name" : "filmSelectTitleTest()",
+  "fullName" : "ImdbPaginationTest.filmSelectTitleTest",
+  "historyId" : "f7742d2bd3ba4cd39c6acbe15f518164",
+  "time" : {
+    "start" : 1629636929650,
+    "stop" : 1629636967970,
+    "duration" : 38320
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629636929651,
+      "stop" : 1629636940304,
+      "duration" : 10653
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629636963367,
+      "stop" : 1629636967970,
+      "duration" : 4603
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-AO95A4T"
+  }, {
+    "name" : "thread",
+    "value" : "17128@DESKTOP-AO95A4T.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ImdbPaginationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ImdbPaginationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "filmSelectTitleTest"
+  }, {
+    "name" : "suite",
+    "value" : "ImdbPaginationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ef4765372be591a.json",
+  "parameterValues" : [ ]
+}

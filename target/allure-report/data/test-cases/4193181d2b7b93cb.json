@@ -1,0 +1,87 @@
+{
+  "uid" : "4193181d2b7b93cb",
+  "name" : "listSearchTest()",
+  "fullName" : "ImdbListTest.listSearchTest",
+  "historyId" : "ab57f36395a94ffd7013847fadb244cf",
+  "time" : {
+    "start" : 1629636716559,
+    "stop" : 1629636746337,
+    "duration" : 29778
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1629636716560,
+      "stop" : 1629636726667,
+      "duration" : 10107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1629636741517,
+      "stop" : 1629636746336,
+      "duration" : 4819
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-AO95A4T"
+  }, {
+    "name" : "thread",
+    "value" : "17128@DESKTOP-AO95A4T.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ImdbListTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ImdbListTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "listSearchTest"
+  }, {
+    "name" : "suite",
+    "value" : "ImdbListTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4193181d2b7b93cb.json",
+  "parameterValues" : [ ]
+}
