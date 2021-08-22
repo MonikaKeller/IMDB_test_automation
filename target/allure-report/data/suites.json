@@ -1,0 +1,231 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ImdbAddDataTest",
+    "children" : [ {
+      "name" : "createNewListTest()",
+      "uid" : "86f3a0d4df8a5124",
+      "parentUid" : "51a2f7d4674f7bf9ce95555d64186d8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629636572801,
+        "stop" : 1629636617641,
+        "duration" : 44840
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "51a2f7d4674f7bf9ce95555d64186d8e"
+  }, {
+    "name" : "ImdbDeleteDataTest",
+    "children" : [ {
+      "name" : "deleteDataTest()",
+      "uid" : "4f8abb59ef933c1f",
+      "parentUid" : "12482bc68312623d04f3c7adc0253c37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629636618056,
+        "stop" : 1629636661564,
+        "duration" : 43508
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "12482bc68312623d04f3c7adc0253c37"
+  }, {
+    "name" : "ImdbExportDataTest",
+    "children" : [ {
+      "name" : "exportDataTest()",
+      "uid" : "10492c29b750aa39",
+      "parentUid" : "df39ca80f7332eb1db1981a6b9784b45",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629636661583,
+        "stop" : 1629636691419,
+        "duration" : 29836
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "df39ca80f7332eb1db1981a6b9784b45"
+  }, {
+    "name" : "ImdbListTest",
+    "children" : [ {
+      "name" : "dataSearchTest()",
+      "uid" : "7436ca66fc241cb9",
+      "parentUid" : "43fff5a51ee4c3fae9ce05a3e3a86a99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629636691452,
+        "stop" : 1629636716549,
+        "duration" : 25097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "listSearchTest()",
+      "uid" : "4193181d2b7b93cb",
+      "parentUid" : "43fff5a51ee4c3fae9ce05a3e3a86a99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629636716559,
+        "stop" : 1629636746337,
+        "duration" : 29778
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "43fff5a51ee4c3fae9ce05a3e3a86a99"
+  }, {
+    "name" : "ImdbLoginTest",
+    "children" : [ {
+      "name" : "loginTextTest()",
+      "uid" : "75f4df55645cd114",
+      "parentUid" : "d414306e7e7985faf5336d6ef02e52b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629636746357,
+        "stop" : 1629636775390,
+        "duration" : 29033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d414306e7e7985faf5336d6ef02e52b9"
+  }, {
+    "name" : "ImdbLogoutTest",
+    "children" : [ {
+      "name" : "logoutAfterTest()",
+      "uid" : "2ca19dee1cd7ca58",
+      "parentUid" : "63ca5103bb7cd3d7ceac04236d7e022b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629636775421,
+        "stop" : 1629636812531,
+        "duration" : 37110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "63ca5103bb7cd3d7ceac04236d7e022b"
+  }, {
+    "name" : "ImdbModifyDataTest",
+    "children" : [ {
+      "name" : "modifyDataTest()",
+      "uid" : "aac777dadad82423",
+      "parentUid" : "3d3c4bcc5a13890ef8aa2b3e1166ef37",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629636812545,
+        "stop" : 1629636851328,
+        "duration" : 38783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3d3c4bcc5a13890ef8aa2b3e1166ef37"
+  }, {
+    "name" : "ImdbPaginationTest",
+    "children" : [ {
+      "name" : "filmPaginationTest()",
+      "uid" : "420b30c004c88850",
+      "parentUid" : "328e4a709f8204fce7d693e816ef9e64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629636851347,
+        "stop" : 1629636929636,
+        "duration" : 78289
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "filmSelectTitleTest()",
+      "uid" : "1ef4765372be591a",
+      "parentUid" : "328e4a709f8204fce7d693e816ef9e64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629636929650,
+        "stop" : 1629636967970,
+        "duration" : 38320
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "dataSearchTest()",
+      "uid" : "4fb79ec8b48228ff",
+      "parentUid" : "328e4a709f8204fce7d693e816ef9e64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629636967978,
+        "stop" : 1629636991921,
+        "duration" : 23943
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "328e4a709f8204fce7d693e816ef9e64"
+  }, {
+    "name" : "ImdbPrivacyPolicyTest",
+    "children" : [ {
+      "name" : "privacyPolicyTextTest()",
+      "uid" : "53dd4d732183d1ca",
+      "parentUid" : "0c3aae370650d249112525ee9b4d90fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629636991934,
+        "stop" : 1629637010926,
+        "duration" : 18992
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0c3aae370650d249112525ee9b4d90fe"
+  }, {
+    "name" : "ImdbRegTest",
+    "children" : [ {
+      "name" : "RegistrationTest()",
+      "uid" : "5819c5cad80704bb",
+      "parentUid" : "2bb33c5badf94fb792d7d577a54bef03",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1629637010945,
+        "stop" : 1629637010945,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2bb33c5badf94fb792d7d577a54bef03"
+  }, {
+    "name" : "ImdbRepeatedDataEntryTest",
+    "children" : [ {
+      "name" : "repeatedDataEntryTest()",
+      "uid" : "3221644ec24e2af7",
+      "parentUid" : "f5d61bedb71f9299f82c696401fe604b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629637010956,
+        "stop" : 1629637102861,
+        "duration" : 91905
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f5d61bedb71f9299f82c696401fe604b"
+  } ]
+}
