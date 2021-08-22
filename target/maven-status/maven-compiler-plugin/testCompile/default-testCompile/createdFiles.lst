@@ -1,0 +1,12 @@
+ImdbLoginTest.class
+ImdbRepeatedDataEntryTest.class
+ImdbExportDataTest.class
+ImdbDeleteDataTest.class
+ImdbAddDataTest.class
+ImdbTest.class
+ImdbLogoutTest.class
+ImdbModifyDataTest.class
+ImdbPaginationTest.class
+ImdbPrivacyPolicyTest.class
+ImdbRegTest.class
+ImdbListTest.class
