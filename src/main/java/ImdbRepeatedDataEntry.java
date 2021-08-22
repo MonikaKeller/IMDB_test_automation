@@ -9,8 +9,6 @@ import java.util.List;
 
 public class ImdbRepeatedDataEntry extends Imdb {
 
-    //Adatok felvitele .text fájlból: Watchlist
-
     public static final By TOTAL_CHECK = By.id("totalCheck");
     public static final By DELETE_ITEMS = By.id("delete_items");
     public static final By ALERT_DELETE = By.xpath("//input[@type=\"submit\" and @value=\"DELETE\"]");

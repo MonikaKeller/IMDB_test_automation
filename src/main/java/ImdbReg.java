@@ -14,9 +14,7 @@ public class ImdbReg extends Imdb {
     public static final By VERIFY_TEXT= By.xpath("//*[@id=\"verification-code-form\"]/div[4]/div[1]/h1");
 
 
-    /*Teszt Elek2
-    tesztelek4564567@gmail.com
-    jelszó: Tesztelek34 */
+
     static final String REG_NAME = "Teszt Elek2";
     static final String REG_EMAIL = "tesztelek4564567@gmail.com";
     static final String REG_PASSWORD = "Tesztelek34";

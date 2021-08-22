@@ -1,13 +1,8 @@
-import java.util.ArrayList;
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public abstract class Imdb {
 
@@ -28,8 +23,10 @@ public abstract class Imdb {
     public static final By EDIT_BUTTON = By.xpath("//a[@class=\"button\" and @title=\"Edit\"]");
     public static final By ADD_TO_LIST_SEARCH = By.xpath("//input[@type=\"text\" and @id=\"add-to-list-search\"]");
     public static final By SEARCH_ITEM = By.xpath("//div[@class=\"results\"]/a[@class=\"search_item\"]");
-    //Teszt Elek
-    //tesztelek1231234@gmail.com
+
+    //Belépési adatok:
+    //Felhasználónév:Teszt Elek
+    //E-mail:tesztelek1231234@gmail.com
     //jelszó: Tesztelek12
 
     static final String MY_EMAIL = "tesztelek1231234@gmail.com";

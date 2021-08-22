@@ -7,8 +7,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ImdbDeleteData extends Imdb {
 
-    public static final By DELETE_ALERT = By.id("ls507902895");
-
     public ImdbDeleteData(WebDriver driver) {
         super(driver);
     }

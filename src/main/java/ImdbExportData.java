@@ -5,14 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
 public class ImdbExportData extends Imdb {
-    //Lementem a Watchlist-em tartalmát fájlba
+
 
     public static final By EXPORT_WATCHLIST = By.xpath("//*[@id=\"center-1-react\"]/div/div[4]/a");
 

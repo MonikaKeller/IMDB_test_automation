@@ -1,12 +1,11 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ImdbPagination extends Imdb {
 
-    //Film galériában tudunk többoldalas listában lapozni
+
     public static final By NEXT_BUTTON= By.xpath("//a[contains(text(),'Next')]");
     public static final By FILMSELECT= By.xpath("//*[@id=\"main\"]/div/div[2]/table/tbody/tr[1]/td[2]/a");
     public static final By FILMTITLE= By.xpath("//*[@id=\"__next\"]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/h1");
@@ -18,7 +17,7 @@ public class ImdbPagination extends Imdb {
         super(driver);
     }
 
-    //Ezt kiszervezni
+
     public String dataSearch(){
         driver.findElement(SUGGESTION_SEARCH).sendKeys("Star wars\n");
         return driver.findElement(TITLE_MATCHES).getText();
@@ -47,7 +46,7 @@ public class ImdbPagination extends Imdb {
 
                     driver.findElement(NEXT_BUTTON).click();
                     WebDriverWait wait = new WebDriverWait(driver, 3);
-                    //wait.until(ExpectedConditions.visibilityOfElementLocated());
+
 
 
             } catch (NoSuchElementException e){

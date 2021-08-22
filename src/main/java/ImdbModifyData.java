@@ -4,8 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.concurrent.TimeUnit;
-
 public class ImdbModifyData extends Imdb {
     //TODO: TITLE és DESCRIPTION xpath-a nem jó
     public static final By TITLE = By.xpath("//*[@id=\"main\"]/div[2]/div[1]/div/div[1]/div[2]/textarea");

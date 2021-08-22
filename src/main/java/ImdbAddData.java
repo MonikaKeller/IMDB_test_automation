@@ -3,7 +3,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ImdbAddData extends Imdb {
 
-    //Your List
+
 
     public static final By CREATE_A_NEW_LIST_BUTTON = By.xpath("//*[@id=\"sidebar\"]/div[3]/a/button");
     public static final By LIST_CREATE_NAME = By.id("list-create-name");
@@ -32,7 +32,7 @@ public class ImdbAddData extends Imdb {
 
         if (publicList == false) {
         driver.findElement(LIST_CREATE_PUBLIC_CHECKBOX).click();
-        } //Alapértelmezetten publikus a létrehozandó lista
+        }
 
         driver.findElement(CREATE_BUTTON).click();
         driver.findElement(DONE_BUTTON).click();
