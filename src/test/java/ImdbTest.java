@@ -1,3 +1,4 @@
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -31,9 +32,11 @@ public abstract class ImdbTest {
     {
 
 
-        if (System.getProperty("webdriver.chrome.driver") == null) {
+        /*if (System.getProperty("webdriver.chrome.driver") == null) {
             System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\JetBrains\\Selenium\\chromedriver.exe");
-        }
+        }*/
+        WebDriverManager.chromedriver().setup();
+
         String fileDownloadPath = "C:\\Users\\Kiss Mónika\\IdeaProjects\\IMDB_test_automation\\src\\test\\resources";
 
         Map<String, Object> prefsMap = new HashMap<String, Object>();
