@@ -1,0 +1,523 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset238 Liberation Serif{\*\falt Times New Roman};}{\f4\fswiss\fprq2\fcharset238 Liberation Sans{\*\falt Arial};}{\f5\fswiss\fprq2\fcharset128 Calibri;}{\f6\froman\fprq2\fcharset238 Times New Roman;}{\f7\froman\fprq2\fcharset238 Georgia;}{\f8\froman\fprq2\fcharset238 Calibri;}{\f9\froman\fprq2\fcharset238 Palatino Linotype;}{\f10\fnil\fprq0\fcharset238 apple-system{\*\falt BlinkMacSystemFont};}{\f11\fnil\fprq2\fcharset238 Microsoft YaHei;}{\f12\fnil\fprq2\fcharset238 Arial;}{\f13\fnil\fprq2\fcharset238 Georgia;}{\f14\fnil\fprq2\fcharset238 Courier New;}{\f15\fnil\fprq2\fcharset238 Noto Sans Symbols;}{\f16\fnil\fprq2\fcharset238 Calibri;}{\f17\fnil\fprq2\fcharset238 Palatino Linotype;}{\f18\fswiss\fprq0\fcharset128 Arial;}{\f19\fnil\fprq2\fcharset238 Times New Roman;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red102\green102\blue102;\red91\green155\blue213;\red36\green41\blue46;\red204\green204\blue204;\red224\green224\blue224;}
+{\stylesheet{\s0\snext0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052 Normal;}
+{\s1\sbasedon0\snext1\rtlch\af19\afs48\ai0\ab \ltrch\hich\af6\loch\sl240\slmult1\ql\keep\widctlpar\faauto\sb480\sa120\keepn\ltrpar\cf1\strike0\f6\fs48\i0\ulnone\ulc0\b\dbch\af12 C\u237\'edmsor 1;}
+{\s2\sbasedon0\snext2\rtlch\af19\afs36\ai0\ab \ltrch\hich\af6\loch\sl240\slmult1\ql\keep\widctlpar\faauto\sb360\sa80\keepn\ltrpar\cf1\strike0\f6\fs36\i0\ulnone\ulc0\b\dbch\af12 C\u237\'edmsor 2;}
+{\s3\sbasedon0\snext3\rtlch\af19\afs28\ai0\ab \ltrch\hich\af6\loch\sl240\slmult1\ql\keep\widctlpar\faauto\sb280\sa80\keepn\ltrpar\cf1\strike0\f6\fs28\i0\ulnone\ulc0\b\dbch\af12 C\u237\'edmsor 3;}
+{\s4\sbasedon0\snext4\rtlch\af19\afs24\ai0\ab \ltrch\hich\af6\loch\sl240\slmult1\ql\keep\widctlpar\faauto\sb240\sa40\keepn\ltrpar\cf1\strike0\f6\fs24\i0\ulnone\ulc0\b\dbch\af12 C\u237\'edmsor 4;}
+{\s5\sbasedon0\snext5\rtlch\af19\afs22\ai0\ab \ltrch\hich\af6\loch\sl240\slmult1\ql\keep\widctlpar\faauto\sb220\sa40\keepn\ltrpar\cf1\strike0\f6\fs22\i0\ulnone\ulc0\b\dbch\af12 C\u237\'edmsor 5;}
+{\s6\sbasedon0\snext6\rtlch\af19\afs20\ai0\ab \ltrch\hich\af6\loch\sl240\slmult1\ql\keep\widctlpar\faauto\sb200\sa40\keepn\ltrpar\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b\dbch\af12 C\u237\'edmsor 6;}
+{\*\cs15\snext15 Default Paragraph Font;}
+{\*\cs16\snext16\rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 ListLabel 1;}
+{\*\cs17\snext17\rtlch\af14 \ltrch\dbch\af14 ListLabel 2;}
+{\*\cs18\snext18\rtlch\af15 \ltrch\dbch\af15 ListLabel 3;}
+{\*\cs19\snext19\rtlch\af15 \ltrch\dbch\af15 ListLabel 4;}
+{\*\cs20\snext20\rtlch\af14 \ltrch\dbch\af14 ListLabel 5;}
+{\*\cs21\snext21\rtlch\af15 \ltrch\dbch\af15 ListLabel 6;}
+{\*\cs22\snext22\rtlch\af15 \ltrch\dbch\af15 ListLabel 7;}
+{\*\cs23\snext23\rtlch\af14 \ltrch\dbch\af14 ListLabel 8;}
+{\*\cs24\snext24\rtlch\af15 \ltrch\dbch\af15 ListLabel 9;}
+{\*\cs25\snext25\rtlch\af15 \ltrch\hich\af8\loch\f8\fs24\dbch\af15 ListLabel 10;}
+{\*\cs26\snext26\rtlch\af14 \ltrch\dbch\af14 ListLabel 11;}
+{\*\cs27\snext27\rtlch\af15 \ltrch\dbch\af15 ListLabel 12;}
+{\*\cs28\snext28\rtlch\af15 \ltrch\dbch\af15 ListLabel 13;}
+{\*\cs29\snext29\rtlch\af14 \ltrch\dbch\af14 ListLabel 14;}
+{\*\cs30\snext30\rtlch\af15 \ltrch\dbch\af15 ListLabel 15;}
+{\*\cs31\snext31\rtlch\af15 \ltrch\dbch\af15 ListLabel 16;}
+{\*\cs32\snext32\rtlch\af14 \ltrch\dbch\af14 ListLabel 17;}
+{\*\cs33\snext33\rtlch\af15 \ltrch\dbch\af15 ListLabel 18;}
+{\*\cs34\snext34\rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 ListLabel 19;}
+{\*\cs35\snext35\rtlch\af14 \ltrch\dbch\af14 ListLabel 20;}
+{\*\cs36\snext36\rtlch\af15 \ltrch\dbch\af15 ListLabel 21;}
+{\*\cs37\snext37\rtlch\af15 \ltrch\dbch\af15 ListLabel 22;}
+{\*\cs38\snext38\rtlch\af14 \ltrch\dbch\af14 ListLabel 23;}
+{\*\cs39\snext39\rtlch\af15 \ltrch\dbch\af15 ListLabel 24;}
+{\*\cs40\snext40\rtlch\af15 \ltrch\dbch\af15 ListLabel 25;}
+{\*\cs41\snext41\rtlch\af14 \ltrch\dbch\af14 ListLabel 26;}
+{\*\cs42\snext42\rtlch\af15 \ltrch\dbch\af15 ListLabel 27;}
+{\*\cs43\snext43\rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 ListLabel 28;}
+{\*\cs44\snext44\rtlch\af14 \ltrch\dbch\af14 ListLabel 29;}
+{\*\cs45\snext45\rtlch\af15 \ltrch\dbch\af15 ListLabel 30;}
+{\*\cs46\snext46\rtlch\af15 \ltrch\dbch\af15 ListLabel 31;}
+{\*\cs47\snext47\rtlch\af14 \ltrch\dbch\af14 ListLabel 32;}
+{\*\cs48\snext48\rtlch\af15 \ltrch\dbch\af15 ListLabel 33;}
+{\*\cs49\snext49\rtlch\af15 \ltrch\dbch\af15 ListLabel 34;}
+{\*\cs50\snext50\rtlch\af14 \ltrch\dbch\af14 ListLabel 35;}
+{\*\cs51\snext51\rtlch\af15 \ltrch\dbch\af15 ListLabel 36;}
+{\*\cs52\snext52\rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 ListLabel 37;}
+{\*\cs53\snext53\rtlch\af14 \ltrch\dbch\af14 ListLabel 38;}
+{\*\cs54\snext54\rtlch\af15 \ltrch\dbch\af15 ListLabel 39;}
+{\*\cs55\snext55\rtlch\af15 \ltrch\dbch\af15 ListLabel 40;}
+{\*\cs56\snext56\rtlch\af14 \ltrch\dbch\af14 ListLabel 41;}
+{\*\cs57\snext57\rtlch\af15 \ltrch\dbch\af15 ListLabel 42;}
+{\*\cs58\snext58\rtlch\af15 \ltrch\dbch\af15 ListLabel 43;}
+{\*\cs59\snext59\rtlch\af14 \ltrch\dbch\af14 ListLabel 44;}
+{\*\cs60\snext60\rtlch\af15 \ltrch\dbch\af15 ListLabel 45;}
+{\*\cs61\snext61\rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\b0\dbch\af15 ListLabel 46;}
+{\*\cs62\snext62\rtlch\af14 \ltrch\dbch\af14 ListLabel 47;}
+{\*\cs63\snext63\rtlch\af15 \ltrch\dbch\af15 ListLabel 48;}
+{\*\cs64\snext64\rtlch\af15 \ltrch\dbch\af15 ListLabel 49;}
+{\*\cs65\snext65\rtlch\af14 \ltrch\dbch\af14 ListLabel 50;}
+{\*\cs66\snext66\rtlch\af15 \ltrch\dbch\af15 ListLabel 51;}
+{\*\cs67\snext67\rtlch\af15 \ltrch\dbch\af15 ListLabel 52;}
+{\*\cs68\snext68\rtlch\af14 \ltrch\dbch\af14 ListLabel 53;}
+{\*\cs69\snext69\rtlch\af15 \ltrch\dbch\af15 ListLabel 54;}
+{\*\cs70\snext70\rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 ListLabel 55;}
+{\*\cs71\snext71\rtlch\af14 \ltrch\dbch\af14 ListLabel 56;}
+{\*\cs72\snext72\rtlch\af15 \ltrch\dbch\af15 ListLabel 57;}
+{\*\cs73\snext73\rtlch\af15 \ltrch\dbch\af15 ListLabel 58;}
+{\*\cs74\snext74\rtlch\af14 \ltrch\dbch\af14 ListLabel 59;}
+{\*\cs75\snext75\rtlch\af15 \ltrch\dbch\af15 ListLabel 60;}
+{\*\cs76\snext76\rtlch\af15 \ltrch\dbch\af15 ListLabel 61;}
+{\*\cs77\snext77\rtlch\af14 \ltrch\dbch\af14 ListLabel 62;}
+{\*\cs78\snext78\rtlch\af15 \ltrch\dbch\af15 ListLabel 63;}
+{\*\cs79\snext79\rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 ListLabel 64;}
+{\*\cs80\snext80\rtlch\alang255 \ltrch\lang255\langfe255\loch\cf9\lang255\ul\ulc0\dbch\langfe255 Internet-hivatkoz\u225\'e1s;}
+{\s81\sbasedon0\snext82\rtlch\af12\afs28\ai0\ab0 \ltrch\hich\af4\loch\sl240\slmult1\ql\widctlpar\faauto\sb240\sa120\keepn\ltrpar\cf1\strike0\f4\fs28\i0\ulnone\ulc0\b0\dbch\af11 C\u237\'edmsor;}
+{\s82\sbasedon0\snext82\rtlch\af19\afs20\ai0\ab0 \ltrch\hich\af6\loch\sl276\slmult1\ql\widctlpar\faauto\sb0\sa140\ltrpar\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\dbch\af12 Sz\u246\'f6vegt\u246\'f6rzs;}
+{\s83\sbasedon82\snext83\rtlch\af18\afs20\ai0\ab0 \ltrch\hich\af6\loch\sl276\slmult1\ql\widctlpar\faauto\sb0\sa140\ltrpar\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\dbch\af12 List;}
+{\s84\sbasedon0\snext84\rtlch\af18\afs24\ai\ab0 \ltrch\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb120\sa120\noline\ltrpar\cf1\strike0\f6\fs24\i\ulnone\ulc0\b0\dbch\af12 Felirat;}
+{\s85\sbasedon0\snext85\rtlch\af18\afs20\ai0\ab0 \ltrch\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\noline\ltrpar\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\dbch\af12 T\u225\'e1rgymutat\u243\'f3;}
+{\s86\sbasedon0\snext86\rtlch\af19\afs72\ai0\ab \ltrch\hich\af6\loch\sl240\slmult1\ql\keep\widctlpar\faauto\sb480\sa120\keepn\ltrpar\cf1\strike0\f6\fs72\i0\ulnone\ulc0\b\dbch\af12 C\u237\'edm;}
+{\s87\sbasedon0\snext87\rtlch\af13\afs48\ai\ab0 \ltrch\hich\af7\loch\sl240\slmult1\ql\keep\widctlpar\faauto\sb360\sa80\keepn\ltrpar\cf17\strike0\f7\fs48\i\ulnone\ulc0\b0\dbch\af13 Alc\u237\'edm;}
+{\s88\sbasedon0\snext88\rtlch\af19\afs20\ai0\ab0 \ltrch\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\dbch\af12 \u201\'c9l\u337\'f5fej \u233\'e9s \u233\'e9l\u337\'f5l\u225\'e1b;}
+{\s89\sbasedon88\snext89\rtlch\af19\afs20\ai0\ab0 \ltrch\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\dbch\af12 \u201\'c9l\u337\'f5l\u225\'e1b;}
+}{\*\listtable{\list\listtemplateid1
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\'00;}{\levelnumbers\'01;}\fi-72\li432}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'03\'00.\'01;}{\levelnumbers\'01\'03;}\fi504\li576}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\fi-720\li2700}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\fi1656\li864}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\fi2232\li1008}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\fi2988\li1152}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\fi3384\li1296}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\fi3960\li1440}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\fi4716\li1584}\listid1}
+{\list\listtemplateid2
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fs22\loch\fi-360\li720}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li1440}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li2160}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-360\li2880}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li3600}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li4320}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-360\li5040}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li5760}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li6480}\listid2}
+{\list\listtemplateid3
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fs24\loch\fi-360\li720}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li1440}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li2160}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-360\li2880}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li3600}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li4320}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-360\li5040}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li5760}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li6480}\listid3}
+{\list\listtemplateid4
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fs22\loch\fi-360\li720}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li1440}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li2160}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-360\li2880}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li3600}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li4320}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-360\li5040}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li5760}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li6480}\listid4}
+{\list\listtemplateid5
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fs22\loch\fi-360\li720}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li1440}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li2160}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-360\li2880}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li3600}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li4320}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-360\li5040}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li5760}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li6480}\listid5}
+{\list\listtemplateid6
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fs22\b0\loch\fi-360\li720}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li1440}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li2160}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-360\li2880}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li3600}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li4320}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-360\li5040}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li5760}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li6480}\listid6}
+{\list\listtemplateid7
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fs22\loch\fi-360\li720}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li1440}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li2160}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-360\li2880}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li3600}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li4320}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9679 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-360\li5040}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u111 ?;}{\levelnumbers;}\f21\rtlch\af14 \ltrch\loch\fi-360\li5760}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f20\rtlch\af15 \ltrch\loch\fi-180\li6480}\listid7}
+{\list\listtemplateid8
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}\listid8}
+}{\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}}{\*\generator LibreOffice/7.1.0.3$Windows_X86_64 LibreOffice_project/f6099ecf3d29644b5008cc8f48f42f4a40986e4c}{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr2021\mo8\dy22\hr17\min49}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops}\deftab720
+\hyphauto1\viewscale100
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn12240\pghsxn15840\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\footery708{\footer\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qr\widctlpar\tx3600\tqc\tx4320\tx8550\tqr\tx8640\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa0\ltrpar{
+{\field{\*\fldinst  PAGE }{\fldrslt 4}}}
+\par }\pgdscnxt0 Default Page Style;}}
+\formshade\paperh15840\paperw12240\margl1440\margr1440\margt1440\margb708\sectd\sbknone\pgndec\sftnnar\saftnnrlc\sectunlocked1\pgwsxn12240\pghsxn15840\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\footery708{\footer\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qr\widctlpar\tx3600\tqc\tx4320\tx8550\tqr\tx8640\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa0\ltrpar{
+{\field{\*\fldinst  PAGE }{\fldrslt 4}}}
+\par }\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc\htmautsp
+{\*\ftnsep\chftnsep}\pgndec\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\sb0\sa80\rtlch\af16\afs72 \ltrch\hich\af8\loch\fs72\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\sb0\sa80\rtlch\af16\afs72 \ltrch\hich\af8\loch\fs72\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\sb0\sa80{\rtlch\af16\afs72\ab \ltrch\hich\af8\loch\fs72\b\f8\dbch\af16\loch
+Test plan for}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\sb0\sa80{\rtlch\af16\afs72\ab \ltrch\hich\af8\loch\fs72\b\f8\dbch\af16
+    }{\rtlch\af16\afs72\ab \ltrch\hich\af8\loch\fs72\b\f8\dbch\af16\loch
+IMDB}{\rtlch\af16\afs72\ab \ltrch\hich\af8\loch\fs72\b\f8\dbch\af16\loch
+ testing}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\sb0\sa80{\rtlch\af16\afs48\ab \ltrch\hich\af8\loch\fs48\b\f8\dbch\af16\loch
+by Monika Keller}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\sb0\sa80\rtlch\af16\afs72\ab \ltrch\hich\af8\loch\fs72\b\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs36 \ltrch\hich\af8\loch\fs36\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs36 \ltrch\hich\af8\loch\fs36\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs28 \ltrch\hich\af8\loch\fs28\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs28 \ltrch\hich\af8\loch\fs28\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs28 \ltrch\hich\af8\loch\fs28\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs28 \ltrch\hich\af8\loch\fs28\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs28 \ltrch\hich\af8\loch\fs28\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs28 \ltrch\hich\af8\loch\fs28\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs28 \ltrch\hich\af8\loch\fs28\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs28 \ltrch\hich\af8\loch\fs28\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs28 \ltrch\hich\af8\loch\fs28\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\rtlch\af16\afs28\ai \ltrch\hich\af8\loch\fs28\i\f8\dbch\af16\loch
+ChangeLog}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs28 \ltrch\hich\af8\loch\fs28\f8\dbch\af16\loch
+
+\par \trowd\trql\trleft-310\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clcbpat21\clvertalt\cellx2074\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clcbpat21\clvertalt\cellx3754\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clcbpat21\clvertalt\cellx7895\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clcbpat21\clvertalt\cellx9289\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+Version number}\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0{\rtlch\af16\afs20\ai0\ab \ltrch\hich\af8\loch\cf1\strike0\fs20\i0\ulnone\ulc0\b\f8\dbch\af16\loch
+Author}\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+Changes}\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\brdrr\brdrs\brdrw10\brdrcf1\brsp0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+Comment}\cell\row\pard\trowd\trql\trleft-310\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx2074\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx3754\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx7895\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx9289\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+1.0}\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+Monika Keller}\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+Initial version}\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0\brdrr\brdrs\brdrw10\brdrcf1\brsp0\rtlch\af16 \ltrch\hich\af8\loch\cf18\b0\f8\dbch\af16\loch
+\cell\row\pard\trowd\trql\trleft-310\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx2074\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx3754\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx7895\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx9289\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\loch
+\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0\rtlch\af16 \ltrch\hich\af8\loch\b0\f8\dbch\af16\loch
+\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0\rtlch\af16 \ltrch\hich\af8\loch\b0\f8\dbch\af16\loch
+\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0\brdrr\brdrs\brdrw10\brdrcf1\brsp0\rtlch\af16 \ltrch\hich\af8\loch\b0\f8\dbch\af16\loch
+\cell\row\pard\trowd\trql\trleft-310\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx2074\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx3754\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx7895\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx9289\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\loch
+\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0\rtlch\af16 \ltrch\hich\af8\loch\b0\f8\dbch\af16\loch
+\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0\rtlch\af16 \ltrch\hich\af8\loch\b0\f8\dbch\af16\loch
+\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0\brdrr\brdrs\brdrw10\brdrcf1\brsp0\rtlch\af16 \ltrch\hich\af8\loch\b0\f8\dbch\af16\loch
+\cell\row\pard\trowd\trql\trleft-310\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx2074\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx3754\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx7895\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx9289\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0\rtlch\af16 \ltrch\hich\af8\loch\b0\f8\dbch\af16\loch
+\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0\rtlch\af16 \ltrch\hich\af8\loch\b0\f8\dbch\af16\loch
+\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0\rtlch\af16 \ltrch\hich\af8\loch\b0\f8\dbch\af16\loch
+\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb0\sa0\brdrr\brdrs\brdrw10\brdrcf1\brsp0\rtlch\af16 \ltrch\hich\af8\loch\b0\f8\dbch\af16\loch
+\cell\row\pard\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\nowidctlpar\li0\ri0\lin0\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16
+                   }
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs36 \ltrch\hich\af8\loch\fs36\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs36 \ltrch\hich\af8\loch\fs36\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\qc\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs36 \ltrch\hich\af8\loch\fs36\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx400\tqr\tx8640\li0\ri0\lin0\rin0\fi0\sb120\sa120{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+1}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+INTRODUCTION}{\rtlch\ab \ltrch\loch\b\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.gjdgxs" }{\fldrslt {\rtlch\ab \ltrch\loch\b\loch
+2}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx800\tqr\tx8640\li200\ri0\lin200\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+1.1}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+Scope}{\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.3j2qqm3" }{\fldrslt {\loch
+2}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx1200\tqr\tx8640\li400\ri0\lin400\rin0\fi0{\rtlch\ai \ltrch\loch\i\loch
+1.1.1}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\ai \ltrch\loch\i\loch
+In Scope\tab }{{\field{\*\fldinst HYPERLINK "#h.3znysh7" }{\fldrslt {\rtlch\ai \ltrch\loch\i\loch
+2}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx1200\tqr\tx8640\li400\ri0\lin400\rin0\fi0{\rtlch\ai \ltrch\loch\i\loch
+1.1.2}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\ai \ltrch\loch\i\loch
+Out of Scope\tab }{{\field{\*\fldinst HYPERLINK "#h.1y810tw" }{\fldrslt {\rtlch\ai \ltrch\loch\i\loch
+2}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx800\tqr\tx8640\li200\ri0\lin200\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+1.2}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+Quality Objective}{\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.tyjcwt" }{\fldrslt {\loch
+2}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx800\tqr\tx8640\li200\ri0\lin200\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+1.3}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+Roles and Responsibilities}{\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.4i7ojhp" }{\fldrslt {\loch
+2}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx400\tqr\tx8640\li0\ri0\lin0\rin0\fi0\sb120\sa120{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+2}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+TEST METHODOLOGY}{\rtlch\ab \ltrch\loch\b\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.4d34og8" }{\fldrslt {\rtlch\ab \ltrch\loch\b\loch
+3}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx800\tqr\tx8640\li200\ri0\lin200\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+2.1}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+Overview}{\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.2s8eyo1" }{\fldrslt {\loch
+3}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx800\tqr\tx8640\li200\ri0\lin200\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+2.2}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+Test Levels}{\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.17dp8vu" }{\fldrslt {\loch
+3}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx800\tqr\tx8640\li200\ri0\lin200\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+2.3}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+Test Approaches}{\loch
+\tab }{\loch
+3}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx800\tqr\tx8640\li200\ri0\lin200\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+2.}{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+4}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+Test Completeness}{\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.lnxbz9" }{\fldrslt {\loch
+4}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx400\tqr\tx8640\li0\ri0\lin0\rin0\fi0\sb120\sa120{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+3}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+TEST DELIVERABLES}{\rtlch\ab \ltrch\loch\b\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.1ci93xb" }{\fldrslt {\rtlch\ab \ltrch\loch\b\loch
+4}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx400\tqr\tx8640\li0\ri0\lin0\rin0\fi0\sb120\sa120{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+4}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+RESOURCE & ENVIRONMENT NEEDS}{\rtlch\ab \ltrch\loch\b\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.1ksv4uv" }{\fldrslt {\rtlch\ab \ltrch\loch\b\loch
+4}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx800\tqr\tx8640\li200\ri0\lin200\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+4.1}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+Testing Tools}{\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.44sinio" }{\fldrslt {\loch
+4}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx800\tqr\tx8640\li200\ri0\lin200\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+4.2}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+Test Environment}{\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.2jxsxqh" }{\fldrslt {\loch
+4}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx400\tqr\tx8640\li0\ri0\lin0\rin0\fi0\sb120\sa120{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+5}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+TERMS/ACRONYMS}{\rtlch\ab \ltrch\loch\b\loch
+\tab }{{\field{\*\fldinst HYPERLINK "#h.3whwml4" }{\fldrslt {\rtlch\ab \ltrch\loch\b\loch
+5}}}}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs24 \ltrch\hich\af8\loch\fs24\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\pagebb\loch{\listtext\pard\plain  1\tab}\ilvl0\ls1 \li864\ri0\lin864\rin0\fi-72\sl240\slmult1\tx0\tx432\li432\ri0\lin432\rin0\fi-432\keepn{{\*\bkmkstart h.gjdgxs}{\*\bkmkend h.gjdgxs}\rtlch\af16\afs48\ab \ltrch\hich\af8\loch\fs48\b\f8\dbch\af16\loch
+Introduction\tab }
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab }
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\*\bkmkstart h.30j0zll}{\*\bkmkend h.30j0zll}{\*\bkmkstart h.30j0zll}{\*\bkmkend h.30j0zll}\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  1.1\tab}\ilvl1\ls1 \li1152\ri0\lin1152\rin0\fi504\sl240\slmult1\tx0\tx576\li576\ri0\lin576\rin0\fi-576\keepn{{\*\bkmkstart h.1fob9te}{\*\bkmkend h.1fob9te}\rtlch\af16\afs32\ab \ltrch\hich\af8\loch\fs32\b\f8\dbch\af16
+ }{\rtlch\af16\afs32\ab \ltrch\hich\af8\loch\fs32\b\f8\dbch\af16\loch
+Scope}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  1.1.1\tab}\ilvl2\ls1 \li5400\ri0\lin5400\rin0\fi-720\sl240\slmult1\tx1980\tx2700\li2700\ri0\lin2700\rin0\fi-720\keepn{{\*\bkmkstart h.3znysh7}{\*\bkmkend h.3znysh7}\rtlch\af17\afs28 \ltrch\hich\af9\loch\fs28\f9\dbch\af17\loch
+In Scope}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+The features and functional requirements of the software that }{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+will be}{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+ tested: the }{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+IMDB}{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+ login, }{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+Logout, Registration, Watchlist, Your lists. Privacy Policy, Search.}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  1.1.2\tab}\ilvl2\ls1 \li5400\ri0\lin5400\rin0\fi-720\sl240\slmult1\tx1980\tx2700\li2700\ri0\lin2700\rin0\fi-720\keepn{\rtlch\af17\afs28 \ltrch\hich\af9\loch\fs28\f9\dbch\af17\loch
+Out of Scope}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{{\*\bkmkstart h.tyjcwt}{\*\bkmkend h.tyjcwt}\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+The features and non-functional requirements of the software that }{\rtlch\af16\ab \ltrch\hich\af8\loch\b\f8\dbch\af16\loch
+will NOT be}{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+ tested: }{\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+The ones not listed under 1.1.1.}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\*\bkmkstart h.5kxatnh56e1u}{\*\bkmkend h.5kxatnh56e1u}{\*\bkmkstart h.5kxatnh56e1u}{\*\bkmkend h.5kxatnh56e1u}\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  1.2\tab}\ilvl1\ls1 \li1152\ri0\lin1152\rin0\fi504\sl240\slmult1\tx0\tx576\li576\ri0\lin576\rin0\fi-576\keepn{\rtlch\af16\afs32\ab \ltrch\hich\af8\loch\fs32\b\f8\dbch\af16\loch
+Quality Objective}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+Objectives of  testing project:}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 \u9679\'3f\tab}\ilvl0\ls2 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+Ensure the Application Under Test conforms to functional and non-functional requirements}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li720\ri0\lin720\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 \u9679\'3f\tab}\ilvl0\ls2 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+Bugs/issues are identified }
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx2880\tx3240\li2520\ri0\lin2520\rin0\fi-1080\sb0\sa120{\*\bkmkstart h.3dy6vkm}{\*\bkmkend h.3dy6vkm}{\*\bkmkstart h.3dy6vkm}{\*\bkmkend h.3dy6vkm}\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  1.3\tab}\ilvl1\ls1 \li1152\ri0\lin1152\rin0\fi504\sl240\slmult1\tx0\tx576\li576\ri0\lin576\rin0\fi-576\keepn{{\*\bkmkstart h.1t3h5sf}{\*\bkmkend h.1t3h5sf}\rtlch\af16\afs32\ab \ltrch\hich\af8\loch\fs32\b\f8\dbch\af16\loch
+Roles and Responsibilities }
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16 \ltrch\hich\af8\loch\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs24\dbch\af15 \u9679\'3f\tab}\ilvl0\ls3 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs24 \ltrch\hich\af8\loch\fs24\f8\dbch\af16\loch
+Project Manager  \tab M\u243\'f3nika Keller}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs24\dbch\af15 \u9679\'3f\tab}\ilvl0\ls3 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs24 \ltrch\hich\af8\loch\fs24\f8\dbch\af16\loch
+Test Manager \tab \tab M\u243\'f3nika Keller}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs24\dbch\af15 \u9679\'3f\tab}\ilvl0\ls3 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs24 \ltrch\hich\af8\loch\fs24\f8\dbch\af16\loch
+Testers \tab \tab M\u243\'f3nika Keller}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li720\ri0\lin720\rin0\fi720{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+\tab   \tab }
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li2160\ri0\lin2160\rin0\fi720\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs24\dbch\af15 \u9679\'3f\tab}\ilvl0\ls3 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs24 \ltrch\hich\af8\loch\fs24\f8\dbch\af16\loch
+Developers  \tab \tab Not known}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  2\tab}\ilvl0\ls1 \li864\ri0\lin864\rin0\fi-72\sl240\slmult1\tx0\tx432\li432\ri0\lin432\rin0\fi-432\keepn{\rtlch\af16\afs48\ab \ltrch\hich\af8\loch\fs48\b\f8\dbch\af16\loch
+Test Methodology}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  2.1\tab}\ilvl1\ls1 \li1152\ri0\lin1152\rin0\fi504\sl240\slmult1\tx0\tx576\li576\ri0\lin576\rin0\fi-576\keepn{{\*\bkmkstart h.2s8eyo1}{\*\bkmkend h.2s8eyo1}\rtlch\af16\afs32\ab \ltrch\hich\af8\loch\fs32\b\f8\dbch\af16\loch
+Overview}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+The methodologies have been chosen to minimize manual testing efforts of the application.}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  2.2\tab}\ilvl1\ls1 \li1152\ri0\lin1152\rin0\fi504\sl240\slmult1\tx0\tx576\li576\ri0\lin576\rin0\fi-576\keepn{\rtlch\af16\afs32\ab \ltrch\hich\af8\loch\fs32\b\f8\dbch\af16\loch
+Test Levels}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+System test}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\sb240\sa60\keepn\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  2.3\tab}\ilvl1\ls1 \li1152\ri0\lin1152\rin0\fi504\sl240\slmult1\tx0\tx576\li576\ri0\lin576\rin0\fi-576\keepn{\rtlch\af16\afs32\ab \ltrch\hich\af8\loch\fs32\b\f8\dbch\af16\loch
+Test Approaches}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16
+ }
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 \u9679\'3f\tab}\ilvl0\ls4 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22\ai0\ab0 \ltrch\hich\af8\loch\cf1\strike0\fs22\i0\ulnone\ulc0\b0\f8\dbch\af16\loch
+Manual test: Only as preparation for automated tests.}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 \u9679\'3f\tab}\ilvl0\ls4 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22\ai0\ab0 \ltrch\hich\af8\loch\cf1\strike0\fs22\i0\ulnone\ulc0\b0\f8\dbch\af16\loch
+Automated test: Implemented as Junit 5 test classes, each verifying a function in scope.}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\*\bkmkstart h.lnxbz9}{\*\bkmkend h.lnxbz9}{\*\bkmkstart h.lnxbz9}{\*\bkmkend h.lnxbz9}\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  2.4\tab}\ilvl1\ls1 \li1152\ri0\lin1152\rin0\fi504\sl240\slmult1\tx0\tx576\li576\ri0\lin576\rin0\fi-576\keepn{\rtlch\af16\afs32\ab \ltrch\hich\af8\loch\fs32\b\f8\dbch\af16\loch
+Test Completeness}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+Metrics: }
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 \u9679\'3f\tab}\ilvl0\ls5 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+75}{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+% test coverage}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 \u9679\'3f\tab}\ilvl0\ls5 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+All Test cases executed}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx360\tx720\li1080\ri0\lin1080\rin0\fi0\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  3\tab}\ilvl0\ls1 \li864\ri0\lin864\rin0\fi-72\sl240\slmult1\tx0\tx432\li432\ri0\lin432\rin0\fi-432\keepn{\rtlch\af16\afs48\ab \ltrch\hich\af8\loch\fs48\b\f8\dbch\af16\loch
+Test Deliverables}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \trowd\trql\trleft-324\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw30\brdrcf11\clbrdrl\brdrs\brdrw5\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw5\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx5724\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\b0\dbch\af15 \u9679\'3f\tab}\ilvl0\ls6 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\nowidctlpar\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+Test Plan}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\b0\dbch\af15 \u9679\'3f\tab}\ilvl0\ls6 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\nowidctlpar\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+Test Cases }
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\b0\dbch\af15 \u9679\'3f\tab}\ilvl0\ls6 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\nowidctlpar\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\b0\f8\dbch\af16\loch
+Reports}\cell\row\pard\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  4\tab}\ilvl0\ls1 \li864\ri0\lin864\rin0\fi-72\sl240\slmult1\nowidctlpar\tx0\tx432\li432\ri0\lin432\rin0\fi-432\keepn{{\*\bkmkstart h.1ksv4uv}{\*\bkmkend h.1ksv4uv}\rtlch\af16\afs48\ab \ltrch\hich\af8\loch\fs48\b\f8\dbch\af16\loch
+Resource & Environment Needs}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx360\tqc\tx4320\tqr\tx8640\li0\ri0\lin0\rin0\fi0{\*\bkmkstart h.44sinio}{\*\bkmkend h.44sinio}{\*\bkmkstart h.44sinio}{\*\bkmkend h.44sinio}\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  4.1\tab}\ilvl1\ls1 \li1152\ri0\lin1152\rin0\fi504\sl240\slmult1\tx0\tx576\li576\ri0\lin576\rin0\fi-576\keepn{\rtlch\af16\afs32\ab \ltrch\hich\af8\loch\fs32\b\f8\dbch\af16\loch
+Testing Tools}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+List of Tools: }
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 \u9679\'3f\tab}\ilvl0\ls7 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22\ai0\ab0 \ltrch\hich\af8\loch\cf1\strike0\fs22\i0\ulnone\ulc0\b0\f8\dbch\af16\loch
+IntelliJ Idea Community Edition}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 \u9679\'3f\tab}\ilvl0\ls7 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+Allure Framework}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 \u9679\'3f\tab}\ilvl0\ls7 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+Maven 3.0}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 \u9679\'3f\tab}\ilvl0\ls7 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22 \ltrch\hich\af5\loch\scaps0\caps0\cf19\fs22\expnd0\expndtw0\i0\b0\f5\dbch\af16\loch
+Java JDK 1.8}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain \rtlch\af15 \ltrch\hich\af8\loch\f8\fs22\dbch\af15 \u9679\'3f\tab}\ilvl0\ls7 \li1440\ri0\lin1440\rin0\fi-360\sl240\slmult1\tx360\tx720\li720\ri0\lin720\rin0\fi-360{\rtlch\af16\afs22 \ltrch\hich\af5\loch\scaps0\caps0\cf19\fs22\expnd0\expndtw0\i0\b0\f5\dbch\af16\loch
+Google Chrome 92.0}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li720\ri0\lin720\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{{\*\bkmkstart h.2jxsxqh}{\*\bkmkend h.2jxsxqh}\rtlch\af16\afs24 \ltrch\hich\af8\loch\fs24\f8\dbch\af16
+ }
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  4.2\tab}\ilvl1\ls1 \li1152\ri0\lin1152\rin0\fi504\sl240\slmult1\tx0\tx576\li576\ri0\lin576\rin0\fi-576\keepn{\rtlch\af16\afs32\ab \ltrch\hich\af8\loch\fs32\b\f8\dbch\af16\loch
+Test Environment}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\tx0\tx576\li576\ri0\lin576\rin0\fi0\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0{\rtlch\af16\afs22\ai0\ab0 \ltrch\hich\af8\loch\cf1\strike0\fs22\i0\ulnone\ulc0\b0\f8\dbch\af16\loch
+IMDB production environment}
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22\ai0\ab0 \ltrch\hich\af8\loch\cf1\strike0\fs22\i0\ulnone\ulc0\b0\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\cf2\fs22\f8\dbch\af16\loch
+
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch{\listtext\pard\plain  5\tab}\ilvl0\ls1 \li864\ri0\lin864\rin0\fi-72\sl240\slmult1\tx0\tx432\li432\ri0\lin432\rin0\fi-432\keepn{\rtlch\af16\afs48\ab \ltrch\hich\af8\loch\fs48\b\f8\dbch\af16\loch
+Terms/Acronyms }
+\par \pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\li0\ri0\lin0\rin0\fi0\rtlch\af16\afs22 \ltrch\hich\af8\loch\cf2\fs22\f8\dbch\af16\loch
+
+\par \trowd\trql\trleft110\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clcbpat20\clvertalt\cellx2314\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clcbpat20\clvertalt\cellx8869\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb60\sa60{\rtlch\af16\afs22\ab \ltrch\hich\af8\loch\fs22\b\f8\dbch\af16\loch
+TERM/ACRONYM}\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\qc\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb60\sa60\brdrr\brdrs\brdrw10\brdrcf1\brsp0{\rtlch\af16\afs22\ab \ltrch\hich\af8\loch\fs22\b\f8\dbch\af16\loch
+DEFINITION}\cell\row\pard\trowd\trql\trleft110\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx2314\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx8869\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb60\sa60{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+TC}\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb60\sa60\brdrr\brdrs\brdrw10\brdrcf1\brsp0{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\f8\dbch\af16\loch
+Test Case}\cell\row\pard\trowd\trql\trleft110\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx2314\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx8869\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb60\sa60{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\b0\f8\dbch\af16\loch
+IMDB}\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb60\sa60\brdrr\brdrs\brdrw10\brdrcf1\brsp0{\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\b0\f8\dbch\af16\loch
+International Movie Database}\cell\row\pard\trowd\trql\trleft110\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx2314\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clpadft3\clpadt108\clbrdrr\brdrs\brdrw10\brdrcf1\clpadfr3\clpadr108\clvertalt\cellx8869\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb60\sa60\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\b0\f8\dbch\af16\loch
+\cell\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\intbl\sl240\slmult1\nowidctlpar\li0\ri0\lin0\rin0\fi0\sb60\sa60\brdrr\brdrs\brdrw10\brdrcf1\brsp0\rtlch\af16\afs22 \ltrch\hich\af8\loch\fs22\b0\f8\dbch\af16\loch
+\cell\row\pard\pard\plain \s0\rtlch\af19\afs20\ai0\ab0\alang1081 \ltrch\lang1038\langfe2052\hich\af6\loch\sl240\slmult1\ql\widctlpar\faauto\sb0\sa0\ltrpar\hyphpar0\cf1\strike0\f6\fs20\i0\ulnone\ulc0\b0\lang1038\kerning1\dbch\af12\langfe2052\loch\sl240\slmult1\nowidctlpar\tx2880\tx3240\li360\ri0\lin360\rin0\fi0\sb0\sa120\loch
+
+\par }
