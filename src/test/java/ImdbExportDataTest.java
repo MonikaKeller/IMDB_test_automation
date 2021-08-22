@@ -5,13 +5,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ImdbExportDataTest extends ImdbTest{
 
@@ -25,7 +18,7 @@ public class ImdbExportDataTest extends ImdbTest{
     @Override
     public ImdbExportData getPage(){
 
-        //castolás
+
         return (ImdbExportData) super.getPage();
     }
 

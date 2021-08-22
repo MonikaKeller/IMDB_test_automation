@@ -11,7 +11,7 @@ public class ImdbPaginationTest extends ImdbTest{
     @Override
     public ImdbPagination getPage(){
 
-        //castolás
+
         return (ImdbPagination) super.getPage();
     }
 

@@ -11,7 +11,7 @@ public class ImdbListTest extends ImdbTest{
     @Override
     public ImdbList getPage(){
 
-        //castolás
+
         return (ImdbList) super.getPage();
     }
 
