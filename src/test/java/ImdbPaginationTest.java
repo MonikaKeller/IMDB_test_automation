@@ -1,3 +1,4 @@
+import io.qameta.allure.Description;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -43,6 +44,7 @@ public class ImdbPaginationTest extends ImdbTest{
 
     }
     @Test
+    @Description("IMDB_testing.xlsx: TC9")
     public void filmPaginationTest(){
         String expected_add_image= "Add Image";
 

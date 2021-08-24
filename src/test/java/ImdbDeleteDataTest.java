@@ -1,4 +1,6 @@
 
+import io.qameta.allure.Description;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class ImdbDeleteDataTest extends ImdbTest{
@@ -16,13 +18,16 @@ public class ImdbDeleteDataTest extends ImdbTest{
     }
 
     @Test
+    @Description("IMDB_testing.xlsx: TC7")
     public void deleteDataTest(){
         String name = "My list";
 
-        getPage().signIn();
-        getPage().deleteDataInit(name);
 
-        //TODO: Assertions hiányzik még
-        //Assertions.assertEquals(expected,actual);
+        getPage().signIn();
+        String listId = getPage().deleteDataInit(name);
+        boolean actual = getPage().isListExists(listId);
+
+
+        Assertions.assertEquals(false,actual);
     }
 }

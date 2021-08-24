@@ -19,7 +19,7 @@ public class ImdbLoginTest extends ImdbTest{
     }
 
     @Test
-    @Description("IMDB_testing.xls: TC2")
+    @Description("IMDB_testing.xlsx: TC2")
     public void loginTextTest(){
         getPage().signIn();
         String actual = getPage().loginText();

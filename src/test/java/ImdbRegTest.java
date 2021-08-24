@@ -16,7 +16,7 @@ public class ImdbRegTest extends ImdbTest{
     }
     @Disabled
     @Test
-    @Description("IMDB_testing.xls: TC1, A teszteset csak részben automatizálható," +
+    @Description("IMDB_testing.xlsx: TC1, A teszteset csak részben automatizálható," +
             "mert email megerősítés szükséges a befejezéshez.")
     public void RegistrationTest(){
         getPage().signInClick();

@@ -1,3 +1,4 @@
+import io.qameta.allure.Description;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -16,6 +17,7 @@ public class ImdbListTest extends ImdbTest{
     }
 
     @Test
+    @Description("IMDB_testing.xlsx: TC8")
     public void dataSearchTest(){
         String expected_film = "\"Star wars\"";
 
@@ -29,6 +31,7 @@ public class ImdbListTest extends ImdbTest{
     }
 
     @Test
+    @Description("IMDB_testing.xlsx: TC8")
     public void listSearchTest(){
         String expected_search = "Search category:";
 

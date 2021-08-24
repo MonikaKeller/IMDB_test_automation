@@ -17,7 +17,7 @@ public class ImdbModifyDataTest extends ImdbTest{
     }
 
     @Test
-    @Description("IMDB_testing.xls: TC6")
+    @Description("IMDB_testing.xlsx: TC6")
     public void modifyDataTest(){
         String name = "My list";
 

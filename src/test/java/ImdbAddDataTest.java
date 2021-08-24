@@ -18,7 +18,7 @@ public class ImdbAddDataTest extends ImdbTest{
     }
 
     @Test
-    @Description("IMDB_testing.xls: TC5")
+    @Description("IMDB_testing.xlsx: TC5")
     public void createNewListTest(){
         String name = "My list";
         String description = "Monika's list";

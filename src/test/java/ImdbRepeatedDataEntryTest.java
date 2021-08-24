@@ -1,3 +1,4 @@
+import io.qameta.allure.Description;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -27,6 +28,7 @@ public class ImdbRepeatedDataEntryTest extends ImdbTest{
     }
 
     @Test
+    @Description("IMDB_testing.xlsx: TC10")
     public void repeatedDataEntryTest(){
         getPage().signIn();
         List<String> titles = openFile();

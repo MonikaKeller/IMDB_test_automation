@@ -17,7 +17,7 @@ public class ImdbLogoutTest extends ImdbTest{
     }
 
     @Test
-    @Description("IMDB_testing.xls: TC3")
+    @Description("IMDB_testing.xlsx: TC3")
     public void logoutAfterTest(){
         getPage().signIn();
         getPage().logoutClick();

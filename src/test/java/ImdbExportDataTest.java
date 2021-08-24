@@ -1,3 +1,4 @@
+import io.qameta.allure.Description;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import java.io.BufferedReader;
@@ -23,6 +24,7 @@ public class ImdbExportDataTest extends ImdbTest{
     }
 
     @Test
+    @Description("IMDB_testing.xlsx: TC11")
     public void exportDataTest(){
         getPage().signIn();
         deleteWatchListCsvFile();

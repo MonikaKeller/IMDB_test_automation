@@ -16,7 +16,7 @@ public class ImdbPrivacyPolicyTest extends ImdbTest{
         return (ImdbPrivacyPolicy) super.getPage();
     }
     @Test
-    @Description("IMDB_testing.xls: TC4")
+    @Description("IMDB_testing.xlsx: TC4")
     public void privacyPolicyTextTest(){
 
         getPage().privacyPolicyClick();
