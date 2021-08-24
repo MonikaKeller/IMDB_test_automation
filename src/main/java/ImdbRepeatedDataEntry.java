@@ -46,8 +46,9 @@ public class ImdbRepeatedDataEntry extends Imdb {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();", checkBoxTotal);
         driver.findElement(DELETE_ITEMS).click();
-        //TODO: Ha lesz idő, kicserélni explicitWait-re
-        sleep(1000);
+
+        WebDriverWait wait2 = new WebDriverWait(driver, 3);
+        wait2.until(ExpectedConditions.visibilityOfElementLocated(ALERT_DELETE));
 
         driver.findElement(ALERT_DELETE).click();
         sleep(5000);

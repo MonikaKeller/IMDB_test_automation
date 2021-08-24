@@ -11,7 +11,7 @@ public class ImdbDeleteData extends Imdb {
         super(driver);
     }
 
-    public void deleteDataInit(String name){
+    public String deleteDataInit(String name){
         driver.findElement(PROFILE_BUTTON).click();
         driver.findElement(YOUR_LISTS).click();
         WebElement listNameA;
@@ -42,6 +42,16 @@ public class ImdbDeleteData extends Imdb {
             deleteAlert.click();
             sleep(3000);
 
+            return listId;
+    }
 
+    public boolean isListExists(String listId){
+        try {
+            driver.findElement(By.xpath("//li[@id=\"" + listId + "\" and data-list-type=\"Titles\"]/a[@class=\"list-name\"]"));
+            return true;
+        }
+        catch(NoSuchElementException e){
+           return false;
+        }
     }
 }
